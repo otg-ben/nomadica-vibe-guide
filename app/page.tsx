@@ -49,13 +49,6 @@ export default function VibePage() {
       <div className="bg-white px-5 py-8 border-b border-gray-100">
         <div className="max-w-2xl mx-auto space-y-6">
 
-          {/* Seasons */}
-          <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-1">
-            {g.seasonRatings.map(s => (
-              <SeasonCard key={s.season} season={s.season} rating={s.rating as any} />
-            ))}
-          </div>
-
           {/* Vehicle Ratings */}
           <div className="bg-[#f7f4ef] rounded-2xl p-4">
             <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-3">Vehicle Accessibility</p>
@@ -67,6 +60,13 @@ export default function VibePage() {
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* Seasons */}
+          <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-1">
+            {g.seasonRatings.map(s => (
+              <SeasonCard key={s.season} season={s.season} rating={s.rating as any} />
+            ))}
           </div>
 
           {/* Crowd + Dark skies */}
