@@ -1,15 +1,18 @@
 import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
 import './globals.css'
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
   title: 'Vibe Guide — Mendocino National Forest',
-  description: 'An overlander\'s guide to Mendocino National Forest',
+  description: "An overlander's guide to Mendocino National Forest",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="h-full">
-      <body className="min-h-full">{children}</body>
+    <html lang="en" className={`h-full ${inter.variable}`}>
+      <body className="min-h-full font-[var(--font-inter)]">{children}</body>
     </html>
   )
 }
