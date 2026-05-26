@@ -52,8 +52,21 @@ export default function VibePage() {
           {/* Seasons */}
           <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-1">
             {g.seasonRatings.map(s => (
-              <SeasonCard key={s.season} season={s.season} rating={s.rating as any} description={s.description} />
+              <SeasonCard key={s.season} season={s.season} rating={s.rating as any} />
             ))}
+          </div>
+
+          {/* Vehicle Ratings */}
+          <div className="bg-[#f7f4ef] rounded-2xl p-4">
+            <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-3">Vehicle Accessibility</p>
+            <div className="grid grid-cols-2 gap-x-6 gap-y-2">
+              {g.vehicleRatings.map(v => (
+                <div key={v.type} className="flex items-center justify-between gap-2">
+                  <span className="text-xs text-gray-600">{v.type}</span>
+                  <RatingPill rating={v.rating as any} />
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Crowd + Dark skies */}

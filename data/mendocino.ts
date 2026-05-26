@@ -99,18 +99,18 @@ export const mendocino: VibeGuide = {
   quote:
     "One of California's most accessible national forests. Mendocino NF is an overlander's paradise packed with a dense network of soft-roading dirt trails and ridge-top drives that sees a fraction of the crowds you'll find in busier locations like the central and eastern Sierra.",
   vehicleRatings: [
-    { type: 'AWD / Crossover', rating: 'Great' },
-    { type: 'Van / Sprinter', rating: 'Great' },
-    { type: 'Stock 4x4', rating: 'Best' },
-    { type: 'Built 4x4', rating: 'Best' },
+    { type: 'AWD / Crossover', rating: 'Good' },
+    { type: 'Sprinter / Van', rating: 'Good' },
+    { type: 'Stock 4x4', rating: 'Prime' },
+    { type: 'Modified 4x4', rating: 'Prime' },
   ],
   seasonRatings: [
-    { season: 'Spring', rating: 'Good', description: 'Wildflowers peak, roads muddy at elevation through April' },
-    { season: 'Summer', rating: 'Prime', description: 'Upper forest open, Eel River swimming, long days' },
-    { season: 'Fall', rating: 'Good', description: 'Elk rut in Gravelly Valley, cooler temps, less fire risk' },
-    { season: 'Winter', rating: 'Variable', description: 'Upper roads snow-closed, low elevations accessible' },
+    { season: 'Spring', rating: 'Good', description: '' },
+    { season: 'Summer', rating: 'Best', description: '' },
+    { season: 'Fall', rating: 'Good', description: '' },
+    { season: 'Winter', rating: 'Variable', description: '' },
   ],
-  crowdLevel: 5,
+  crowdLevel: 4,
   darkSkies: {
     rating: 4,
     description: 'Minimal light pollution · Excellent Milky Way visibility',
@@ -153,10 +153,10 @@ export const mendocino: VibeGuide = {
   roadNetwork: {
     prose: 'The forest road network is extensive and mostly forgiving — wide graded gravel on the primary corridors, narrowing to rougher dirt as you push deeper. Surface conditions shift significantly with rainfall; roads that are straightforward in September can be impassable by December. Upper elevations above 5,000 ft close seasonally with snow, typically November through April.',
     vehicleRatings: [
-      { type: 'AWD / Crossover', rating: 'Great' },
-      { type: 'Van / Sprinter', rating: 'Great' },
-      { type: 'Stock 4x4', rating: 'Best' },
-      { type: 'Built 4x4', rating: 'Best' },
+      { type: 'AWD / Crossover', rating: 'Good' },
+      { type: 'Sprinter / Van', rating: 'Good' },
+      { type: 'Stock 4x4', rating: 'Prime' },
+      { type: 'Modified 4x4', rating: 'Prime' },
     ],
     routes: [
       { name: 'M1', description: 'The primary north-south spine of the forest. Runs the full length from Upper Lake in the south up through Hull Mountain and Anthony Peak toward Covelo in the north. This is the backbone of any Mendocino trip and the route the BDT follows.' },
