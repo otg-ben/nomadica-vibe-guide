@@ -2,7 +2,12 @@
 
 import { useEffect, useRef, useState } from 'react'
 
-const photos = [
+export interface GalleryPhoto {
+  src: string
+  alt: string
+}
+
+const defaultPhotos: GalleryPhoto[] = [
   { src: '/images/anthony-peak-lookout.jpg', alt: 'Anthony Peak lookout at 6,954 ft' },
   { src: '/images/lake-pillsbury-kayak.jpg', alt: 'Lake Pillsbury with snow-capped peaks' },
   { src: '/images/pills-basin-elk.png', alt: 'Tule elk herd at Gravelly Valley' },
@@ -11,7 +16,7 @@ const photos = [
   { src: '/images/tacoma-m1.jpg', alt: 'Built Tacoma on the M1 corridor' },
 ]
 
-export default function PhotoGallery() {
+export default function PhotoGallery({ photos = defaultPhotos }: { photos?: GalleryPhoto[] }) {
   const [loaded, setLoaded] = useState<Record<number, boolean>>({})
   const [current, setCurrent] = useState(0)
   const imgRefs = useRef<(HTMLImageElement | null)[]>([])

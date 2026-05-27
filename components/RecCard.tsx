@@ -1,6 +1,5 @@
 import PlacePin from './PlacePin'
 import type { RecOpportunity } from '@/data/mendocino'
-import { mendocino } from '@/data/mendocino'
 
 const badgeColors: Record<string, string> = {
   'Major network':            'bg-emerald-100 text-emerald-800',
@@ -13,8 +12,7 @@ const badgeColors: Record<string, string> = {
   'Fair by CA standards':     'bg-yellow-100 text-yellow-800',
 }
 
-export default function RecCard({ rec }: { rec: RecOpportunity }) {
-  const placeMap = Object.fromEntries(mendocino.places.map(p => [p.id, p.name]))
+export default function RecCard({ rec, placeMap }: { rec: RecOpportunity; placeMap: Record<string, string> }) {
 
   return (
     <div className="bg-white rounded-xl border border-gray-100 p-5 space-y-3">
