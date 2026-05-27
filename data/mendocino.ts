@@ -54,6 +54,7 @@ export interface PopularArea {
   name: string
   description: string
   placeId?: string
+  photo?: string
 }
 
 export interface RoadRoute {
@@ -146,16 +147,19 @@ export const mendocino: VibeGuide = {
     {
       name: 'Lake Pillsbury Basin',
       placeId: 'lake-pillsbury-launch',
+      photo: '/images/lake-pillsbury-kayak.jpg',
       description: "Lake Pillsbury is the social hub of the forest and the first destination for most visitors. The lake was once a powerboat destination, but water levels have been intentionally reduced due to structural concerns with Scott Dam — expect a quieter, more paddling-and-shoreline scene than years past. What it hasn't lost is the camping. Numerous developed campgrounds ring the lake, and it gets genuinely busy through the summer — midweek visits feel like a different place entirely. The campgrounds also serve as popular basecamps for the Upper Lake OHV network that fans out across the surrounding ridges. Target shooting at the old airstrip at the southern end of the lake is a well-known local tradition. And the fishing holds up: CDFW stocks the lake with rainbow trout each fall and spring, and it carries a strong largemouth bass population.",
     },
     {
       name: 'Eel River Corridor — Below Scott Dam',
       placeId: 'eel-river-scott-dam',
+      photo: '/images/forest-camp.jpg',
       description: "The Eel River below Scott Dam is one of those spots that used to be known only to locals — and increasingly isn't. Word has gotten out, and for good reason: the water is warm, the swimming holes are excellent, and you can set up a riverside camp and walk twenty feet to the water. It gets busy, especially on weekends from Memorial Day through Labor Day — go Tuesday through Thursday if you're after solitude. The shoulder season has a completely different character: fewer people, cooler water, and the specific quiet that comes when summer crowds disappear.",
     },
     {
       name: 'Stonyford',
       placeId: 'stonyford-svra',
+      photo: '/images/tacoma-m1.jpg',
       description: "Stonyford anchors the eastern end of the forest and serves as the primary staging area for the Stony Creek OHV network — one of the largest dedicated trail systems in Northern California. Multiple developed campgrounds sit near the trailhead, and the area buzzes with moto activity when trails are open. Whether you're on a dirt bike, dual-sport, ATV, or side-by-side, this is a destination in its own right. The trail network ranges from beginner-friendly doubletrack to genuinely technical singletrack. Come midweek if you want the trails to yourself.",
     },
   ],
