@@ -80,6 +80,7 @@ export interface VibeGuide {
   title: string
   badge: string
   quote: string
+  forestUrl: string
   vehicleRatings: { type: string; rating: VehicleRating }[]
   seasonRatings: { season: string; rating: SeasonRating; description: string }[]
   crowdLevel: CrowdLevel
@@ -109,6 +110,7 @@ export interface VibeGuide {
 export const mendocino: VibeGuide = {
   title: 'Mendocino National Forest',
   badge: 'National Forest · Northern CA',
+  forestUrl: 'https://www.fs.usda.gov/mendocino',
   quote:
     "One of California's most accessible national forests. Mendocino NF is an overlander's paradise packed with a dense network of soft-roading dirt trails and ridge-top drives that sees a fraction of the crowds you'll find in busier locations like the central and eastern Sierra.",
   vehicleRatings: [

@@ -3,6 +3,7 @@ import type { VibeGuide } from './mendocino'
 export const tahoe: VibeGuide = {
   title: 'Tahoe National Forest',
   badge: 'National Forest · Northern CA',
+  forestUrl: 'https://www.fs.usda.gov/tahoe',
   quote:
     "California's most visited national forest packs granite peaks, snowmelt rivers, and 800 miles of roads into the northern Sierra. Come mid-July through October when the high passes open and the crowds thin above 6,000 feet.",
 
@@ -51,15 +52,11 @@ export const tahoe: VibeGuide = {
     },
     {
       type: 'warning',
-      text: 'California Campfire Permit required for any open flame in dispersed areas — including portable gas stoves with a shutoff valve. Get one free at fs.usda.gov before your trip.',
-    },
-    {
-      type: 'warning',
-      text: 'Fire restrictions during Red Flag conditions can further limit or close dispersed camping. Check inciweb.wildfire.gov in summer.',
+      text: 'Fire restrictions during Red Flag conditions can limit or close dispersed camping. Check inciweb.wildfire.gov in summer before heading out.',
     },
     {
       type: 'info',
-      text: 'No permit required for dispersed camping. Stay at least 100 feet from any lake, river, or stream channel. 14-day occupancy limit per calendar year.',
+      text: 'Dispersed camping is free with no reservation required. Check fs.usda.gov/tahoe for current rules, fire permits, and road closures before your trip.',
     },
     {
       type: 'info',
@@ -179,7 +176,7 @@ export const tahoe: VibeGuide = {
 
   camping: {
     prose:
-      'Dispersed camping is free and does not require a permit. Stay 100 feet from any lake, river, or stream. The best corridors are Bowman Lake basin, French Meadows Reservoir, the Henness Pass corridor between Kyburz Flat and Jackson Meadows, and the roads north of Packer Saddle in the Sierra Buttes area. Sites fill fast on summer weekends — aim for Tuesday through Thursday arrivals. A California Campfire Permit (free at fs.usda.gov) is required for any open flame, including gas stoves.',
+      'Dispersed camping is free with no reservation required. The best corridors are the Bowman Lake basin, French Meadows Reservoir, the Henness Pass corridor between Kyburz Flat and Jackson Meadows, and the roads north of Packer Saddle in the Sierra Buttes area. Sites fill fast on summer weekends — aim for Tuesday through Thursday arrivals. Check fs.usda.gov/tahoe for current fire permit requirements and any active closures.',
     dispersedSpots: [
       {
         name: 'Bowman Lake North Shore',

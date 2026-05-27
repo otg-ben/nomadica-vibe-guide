@@ -43,7 +43,17 @@ export default function VibeGuidePage({
         <div className="absolute inset-x-0 bottom-0 px-6 pb-10 max-w-2xl mx-auto">
           <p className="text-[11px] tracking-[0.25em] uppercase text-emerald-400 font-semibold mb-3">Trail Guide</p>
           <h1 className="text-5xl font-black text-white leading-none tracking-tight mb-4">{g.title}</h1>
-          <span className="inline-block text-xs bg-white/20 backdrop-blur-sm text-white/90 rounded-full px-3 py-1.5 tracking-wide font-medium">{g.badge}</span>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="inline-block text-xs bg-white/20 backdrop-blur-sm text-white/90 rounded-full px-3 py-1.5 tracking-wide font-medium">{g.badge}</span>
+            <a
+              href={g.forestUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 bg-emerald-500/80 backdrop-blur-sm hover:bg-emerald-500 text-white rounded-full px-4 py-1.5 text-xs font-bold tracking-wide transition-colors whitespace-nowrap"
+            >
+              {g.title} Website ↗
+            </a>
+          </div>
         </div>
       </div>
 
