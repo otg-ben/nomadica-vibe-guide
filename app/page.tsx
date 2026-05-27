@@ -52,14 +52,17 @@ export default function VibePage() {
           {/* Vehicle Ratings */}
           <div className="pt-7">
             <p className="text-[10px] font-black uppercase tracking-widest text-gray-400 mb-4">Vehicle Accessibility</p>
-            <div className="space-y-2.5">
-              {(['Best', 'Good', 'Fair', 'Variable', 'Inaccessible'] as const).map(rating => {
-                const vehicles = g.vehicleRatings.filter(v => v.rating === rating)
-                if (!vehicles.length) return null
+            <div className="grid grid-cols-2 gap-1.5">
+              {g.vehicleRatings.map(v => {
+                const tileClass = v.rating === 'Best' ? 'bg-emerald-700 text-white'
+                  : v.rating === 'Good' ? 'bg-emerald-100 text-emerald-800'
+                  : v.rating === 'Fair' ? 'bg-yellow-100 text-yellow-800'
+                  : v.rating === 'Variable' ? 'bg-orange-100 text-orange-700'
+                  : 'bg-red-100 text-red-700'
                 return (
-                  <div key={rating} className="flex items-center gap-3">
-                    <RatingPill rating={rating as any} />
-                    <span className="text-sm text-gray-600">{vehicles.map(v => v.type).join(' · ')}</span>
+                  <div key={v.type} className={`rounded-xl py-3 px-3 text-center ${tileClass}`}>
+                    <p className="text-xs font-black leading-tight">{v.type}</p>
+                    <p className="text-[10px] font-semibold mt-0.5 opacity-60">{v.rating}</p>
                   </div>
                 )
               })}
@@ -76,11 +79,11 @@ export default function VibePage() {
                 const tileClass = s.rating === 'Best' ? 'bg-emerald-700 text-white'
                   : s.rating === 'Good' ? 'bg-emerald-100 text-emerald-800'
                   : s.rating === 'Fair' ? 'bg-yellow-100 text-yellow-800'
-                  : s.rating === 'Variable' ? 'bg-slate-200 text-slate-700'
+                  : s.rating === 'Variable' ? 'bg-orange-100 text-orange-700'
                   : 'bg-red-100 text-red-700'
                 return (
                   <div key={s.season} className={`rounded-xl py-3 px-1 text-center ${tileClass}`}>
-                    <p className="text-[10px] font-bold uppercase tracking-wide opacity-60">{s.season.slice(0, 3)}</p>
+                    <p className="text-[10px] font-bold tracking-wide opacity-60">{s.season}</p>
                     <p className="text-xs font-black mt-1 leading-tight">{s.rating}</p>
                   </div>
                 )
