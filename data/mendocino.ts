@@ -132,7 +132,7 @@ export const mendocino: VibeGuide = {
   ],
   overview: [
     "No paved road crosses Mendocino National Forest. It's the only national forest in California you can't drive through on pavement, and that keeps the crowd thin. Most people who don't already know about this forest never find it.",
-    "Lower elevations are dry oak savanna and rolling grass hills. Get up past 3,000 feet and it turns to ponderosa pine, then dense mixed conifer as you push higher. The ridges open up into long views across the Coast Ranges. The northern section, up around Hull Mountain and Anthony Peak, is as remote-feeling as anything two hours from the Bay Area.",
+    "Lower elevations are dry oak savanna and rolling grass hills. Get up past 3,000 feet and it turns to ponderosa pine, then dense mixed conifer as you push higher. The ridges open up into long views across the Coast Ranges. The northern section, up around Hull Mountain and Anthony Peak, is properly remote for being two hours from the Bay Area.",
     "98% of the road network is unpaved but most of it doesn't need a 4WD. A stock Tacoma or AWD crossover handles the main corridors fine in dry conditions. If you're newer to backcountry driving, this is a good place to build confidence. There's enough road to explore for a week without doubling back on yourself.",
     "Lake Pillsbury is the main hub, with drive-up camping on the water and no reservation required. The Eel River below Scott Dam is the summer swimming corridor. Stonyford on the east side anchors one of the largest OHV networks in Northern California. Ukiah and Willits are your fuel and resupply stops from the west. Covelo, the quieter eastern gateway, sits at the edge of Round Valley and has been home to the Wailaki and Yuki peoples for thousands of years.",
   ],
@@ -167,7 +167,7 @@ export const mendocino: VibeGuide = {
     },
   ],
   roadNetwork: {
-    prose: "Mendocino is the only national forest in California with no paved through-road. Every route into and through the interior is graded dirt or gravel. That distinction defines the character of the place, and it's the main reason the crowds stay thin. Most of the primary corridors are wide and well-maintained, manageable for a stock AWD crossover in dry conditions. Roads narrow and roughen as you push into the backcountry, and the Hull Mountain spur and a handful of northern routes add some challenge, but nothing on the main network demands lockers or skid plates. Conditions shift fast with weather. Routes that are straightforward in September can be impassable by November. One logistics note that matters: the Soda Springs store at Lake Pillsbury closed in early 2026, taking out the only mid-forest fuel stop. Carry extra fuel for any M1 traverse.",
+    prose: "Mendocino is the only national forest in California with no paved through-road. Every route into and through the interior is graded dirt or gravel. That's what keeps the crowds thin. Most of the primary corridors are wide and well-maintained, manageable for a stock AWD crossover in dry conditions. Roads narrow and roughen as you push into the backcountry, and the Hull Mountain spur and a handful of northern routes add some challenge, but nothing on the main network demands lockers or skid plates. Conditions shift fast with weather. Routes that are straightforward in September can be impassable by November. One logistics note that matters: the Soda Springs store at Lake Pillsbury closed in early 2026, taking out the only mid-forest fuel stop. Carry extra fuel for any M1 traverse.",
     vehicleRatings: [
       { type: 'AWD / Crossover', rating: 'Good' },
       { type: 'Sprinter / Van', rating: 'Good' },
@@ -190,7 +190,7 @@ export const mendocino: VibeGuide = {
       vehicle: 'Soft-road / Stock 4x4',
       vehicles: ['AWD / Crossover', 'Sprinter / Van', 'Stock 4x4'],
       season: 'Late Apr – Nov',
-      description: 'The original California BDT, first put together in the mid-1990s, more than a decade before the KTM Backcountry Discovery Routes. Runs the full length of M1 from Upper Lake north to Covelo, passing through Hull Mountain, Bald Mountain, and the Black Butte and Eel Rivers. Wide dirt and gravel the whole way. One of the best introductory overland routes in California with technical rating averaging 2 and peaking at 3.',
+      description: 'The original California BDT, first put together in the mid-1990s, more than a decade before the KTM Backcountry Discovery Routes. Runs the full length of M1 from Upper Lake north to Covelo, passing through Hull Mountain, Bald Mountain, and the Black Butte and Eel Rivers. Wide dirt and gravel the whole way. Strong introductory overland route in California. Technical rating averages 2, peaks at 3.',
       link: 'https://www.overlandtrailguides.com/post/overland-mendocino-nf-guide-map-gpx',
       photo: 'https://static.wixstatic.com/media/acf3a1_1fc1603b46874bc186811787167d2487~mv2.jpeg',
     },
@@ -212,7 +212,7 @@ export const mendocino: VibeGuide = {
       { name: 'Skunk Rock', description: 'A favorite dispersed pull-off in the northern forest with good access off the main corridor.', placeId: 'skunk-rock' },
       { name: 'Eel Riverfront Camp', description: 'Riverside dispersed camp right on the Eel. Walk-to water access all summer.', placeId: 'eel-riverfront-camp' },
       { name: 'Horse Creek Camp', description: 'Remote and quiet. Upper Eel River headwaters, near the Game Refuge.', placeId: 'horse-creek-camp' },
-      { name: 'Ridge Camp (Anthony Peak)', description: 'A spectacular camp on an exposed ridgeline with sweeping views of the surrounding coast ranges. One of the best stargazing spots in the forest.', placeId: 'ridge-camp' },
+      { name: 'Ridge Camp (Anthony Peak)', description: 'Exposed ridgeline camp with coast range views in every direction. Dark skies are excellent at this elevation, well clear of any town.', placeId: 'ridge-camp' },
     ],
     developedCampgrounds: [
       { name: 'Oak Flat Campground', description: 'Best in the shoulder seasons. Elk graze throughout Gravelly Valley, especially mid-week when the crowds are gone. Fee required.', placeId: 'oak-flat' },
@@ -229,7 +229,7 @@ export const mendocino: VibeGuide = {
       elevation: 'High (6,873 ft)',
       peakSeason: 'May–Oct',
       seasons: { spring: 'Good', summer: 'Prime', fall: 'Prime', winter: 'Limited' },
-      description: "One of the most photographed destinations in the forest. M1 climbs from the valley floor through open oak woodland and into mixed pine, the views widening at every turn until the summit ridge opens across the Coast Ranges and down to Lake Pillsbury. The final stretch gets rockier. AWDs and Crossovers should stay left to avoid the rock garden near the top. At the summit, the fire lookout is long gone but the old concrete piers and wooden sign remain. The 360 views rival anything in the forest.",
+      description: "M1 climbs from the valley floor through open oak woodland and into mixed pine, the views widening at every turn until the summit ridge opens across the Coast Ranges and down to Lake Pillsbury. The final stretch gets rockier. AWDs and Crossovers should stay left to avoid the rock garden near the top. At the summit, the fire lookout is long gone but the old concrete piers and wooden sign remain. 360 degrees of Coast Range from the top.",
       alert: { type: 'warning', text: 'Snow closes the upper section November through April most years.' },
       placeId: 'hull-mountain',
     },
@@ -268,7 +268,7 @@ export const mendocino: VibeGuide = {
       peakSeason: 'Oct–Mar',
       seasons: { spring: 'Limited', summer: 'Limited', fall: 'Prime', winter: 'Good' },
       description: "The Tule elk herd descends from the high country in fall and grazes throughout Gravelly Valley and the Pillsbury Basin through the off-season. With lake levels down in recent years, the herd regularly forages across the exposed meadows where the water has receded, putting them close to the main road. Best in the off-season when the crowds are away. Oak Flat is a good base for elk viewing. They're spotted throughout the valley most mornings.",
-      alert: { type: 'good', text: 'One of the best locations for elk viewing in northern California.' },
+      alert: { type: 'good', text: 'Consistent sightings October through March. Check Gravelly Valley road in the early morning.' },
       placeId: 'gravelly-valley',
     },
   ],
@@ -291,7 +291,7 @@ export const mendocino: VibeGuide = {
       icon: '🌌',
       name: 'Dark Skies & Stargazing',
       badge: 'Bortle Class 2',
-      description: "Mendocino National Forest sits in a Bortle Class 2 zone, the second darkest classification on the scale, shared by only a handful of California sites. At Class 2, the Milky Way casts visible shadows and naked-eye limiting magnitude clears 7.1. Anthony Peak at 6,958 feet is the high point in every sense: above the valley haze, 360-degree unobstructed horizon, well clear of every major light dome in the region. Hammerhorn Lake in the northern forest is a favorite among astrophotographers for its open sky and easy access. The M1 corridor north of Hull Mountain runs ridge-top above 4,000 feet with ridgelines blocking both the Sacramento Valley and Clear Lake glow to the east. Summer and fall deliver the clearest nights. Spring is hit or miss.",
+      description: "Mendocino National Forest sits in a Bortle Class 2 zone, the second darkest classification on the scale, shared by only a handful of California sites. At Class 2, the Milky Way casts visible shadows and naked-eye limiting magnitude clears 7.1. Anthony Peak at 6,958 feet sits above the valley haze with a 360-degree horizon, well clear of every major light dome in the region. Hammerhorn Lake in the northern forest is a favorite among astrophotographers for its open sky and easy access. The M1 corridor north of Hull Mountain runs ridge-top above 4,000 feet with ridgelines blocking both the Sacramento Valley and Clear Lake glow to the east. Summer and fall deliver the clearest nights. Spring is hit or miss.",
       placeIds: ['anthony-peak', 'ridge-camp', 'm1-ridge'],
     },
     {
@@ -310,7 +310,7 @@ export const mendocino: VibeGuide = {
     },
   ],
   history: [
-    "Bloody Rock is a basaltic promontory inside the forest above the upper Eel River canyon, with sheer drops of 150 feet or more on three sides. In the fall of 1859, somewhere between 30 and 65 Yuki, members of the Onkolukomno'm band who had fled the Round Valley Reservation, were cornered here by a group of armed settlers. The precise events are disputed. Every account came from the perpetrators. One version says those trapped chose to jump. Historians now believe they were more likely forced down and executed elsewhere. The site is accessible via a 4.8-mile hike and worth making time for. It's a place of real beauty and dark history in equal measure.",
+    "Bloody Rock is a basaltic promontory inside the forest above the upper Eel River canyon, with sheer drops of 150 feet or more on three sides. In the fall of 1859, somewhere between 30 and 65 Yuki, members of the Onkolukomno'm band who had fled the Round Valley Reservation, were cornered here by a group of armed settlers. The precise events are disputed. Every account came from the perpetrators. One version says those trapped chose to jump. Historians now believe they were more likely forced down and executed elsewhere. The site is accessible via a 4.8-mile hike and worth making time for.",
     "The Yuki people had lived in and around Round Valley and the upper Eel River headwaters for at least 10,000 years before contact. Their population was somewhere between 6,000 and 20,000 in 1854. By 1864 it was roughly 300. The Round Valley Settler Massacres of 1856 to 1859 were organized and partially funded by the California government. The state legislature appropriated money to pay a mercenary expedition that killed more than 280 people in six months alone. The Round Valley Indian Tribes, headquartered in Covelo at the forest's edge, carries the living legacy. Eel River Station, within the national forest, sits on what was a major Yuki village site. The Nome Cult Trail, which passes through the forest above 6,000 feet, was the forced march route used in 1863 to relocate 461 Concow Maidu to Round Valley. Only 277 arrived.",
     "Anthony Peak's fire lookout was built in 1934 by the California Conservation Corps, a 14-by-14-foot live-in cab on a ten-foot wood tower with a catwalk on all four sides. It was enclosed in 1941 and staffed year-round as an enemy aircraft observation post during WWII, then ran continuously until structural deterioration led to its condemnation in 1990. Volunteers and the Forest Service restored it in 1993; rededicated the following year and now the last active staffed fire lookout in Mendocino National Forest. The summit also hosts the Anthony Peak lupine, a rare wildflower found nowhere else on earth.",
     "The forest was established in 1907 by Theodore Roosevelt, originally as the Stony Creek Reserve. It was renamed twice before settling on Mendocino. Herbert Hoover signed the final name change by executive order in 1932 to avoid confusion with the state of California itself.",
@@ -322,7 +322,7 @@ export const mendocino: VibeGuide = {
     { title: 'Mendocino National Forest', source: 'Community pick', youtubeId: 'hKQm4P9gYTY' },
   ],
   places: [
-    { id: 'hull-mountain', name: 'Hull Mountain', lat: 39.5619, lng: -122.9284, description: 'Summit ridge at 6,873 ft. One of the most photographed destinations in the forest.' },
+    { id: 'hull-mountain', name: 'Hull Mountain', lat: 39.5619, lng: -122.9284, description: 'Summit ridge at 6,873 ft. 360-degree views across the Coast Ranges.' },
     { id: 'anthony-peak', name: 'Anthony Peak Lookout', lat: 39.8614, lng: -122.9764, description: 'Highest point in the forest at 6,954 ft. Last manned lookout. Premier stargazing.' },
     { id: 'gravelly-valley', name: 'Gravelly Valley Elk Viewing', lat: 39.4850, lng: -122.9200, description: 'Tule elk winter range. Best Oct–Mar, early mornings.' },
     { id: 'm6-corridor', name: 'M6 Game Refuge Corridor', lat: 39.6500, lng: -122.8800, description: 'Scenic corridor through the Game Refuge along the Eel headwaters.' },
