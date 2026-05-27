@@ -237,7 +237,7 @@ export const mendocino: VibeGuide = {
       photo: '/images/anthony-peak-lookout.jpg',
       vehicles: ['AWD / Crossover', 'Sprinter / Van', 'Stock 4x4'],
       elevation: 'High (6,954 ft)',
-      peakSeason: 'Jun–Oct',
+      peakSeason: 'May–Oct',
       seasons: { spring: 'Limited', summer: 'Prime', fall: 'Prime', winter: 'Limited' },
       description: "The highest point in Mendocino County and the last staffed fire lookout in the forest. The structure was built in 1934 by the CCC, enclosed in 1941 and staffed year-round as an enemy aircraft observation post during WWII, then ran continuously until structural deterioration forced a shutdown in 1990. Volunteers and the Forest Service restored it in 1993 and it's been active since. On a clear day you can see the Pacific to the west and Lassen to the east. After dark it's exceptional — the forest sits in a Bortle Class 2 zone, and at 6,958 feet you're above the valley haze with 360 degrees of unobstructed sky. One more thing worth knowing: the Anthony Peak lupine grows here and nowhere else on earth.",
       alert: { type: 'warning', text: 'Snow closes the upper section November through April most years.' },
