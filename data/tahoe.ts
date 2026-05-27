@@ -77,11 +77,11 @@ export const tahoe: VibeGuide = {
 
   popularAreas: [
     {
-      name: 'Jackson Meadows & Gold Lake Road',
+      name: 'Sierra Buttes & Upper Lakes',
       placeId: 'jackson-meadows',
       photo: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Upper_Sardine_Lake_and_the_Sierra_Buttes%2C_California.jpg',
       description:
-        'The northwest corner of the forest, centered on Hwy 49 between Bassetts and Sierraville. This is the Sierra Buttes country: granite spires rising above a chain of lakes including Gold Lake, Sardine Lakes, Packer Lake, and Salmon Lake. The network of dirt roads between the lakes is accessible to stock 4x4 trucks and serves as a base for the Sierra Buttes Lookout hike. Gold Lake is stocked with rainbow trout by CDFW. Crowds peak in July and August at the lake trailheads but thin out fast once you are on dirt.',
+        'The northwest corner of the forest, centered on Hwy 49 between Bassetts and Sierra City. This is the Sierra Buttes country: granite spires rising above a chain of lakes including the Sardine Lakes, Packer Lake, and Salmon Lake. The network of dirt roads between the lakes is accessible to stock 4x4 trucks and serves as the main trailhead zone for the Sierra Buttes Lookout hike. Crowds peak in July and August at the lake trailheads but thin out fast once you are on dirt.',
     },
     {
       name: 'French Meadows Reservoir',
@@ -132,9 +132,9 @@ export const tahoe: VibeGuide = {
           'Leaves Hwy 20 and climbs north into the lake basin. Rocky and rutted in sections. High-clearance truck required. Connects to Grouse Ridge Road at the top.',
       },
       {
-        name: 'Gold Lake Rd',
+        name: 'Gold Lake Hwy',
         description:
-          'Paved road running through the Jackson Meadows lake chain. Access to Sierra Buttes, Sardine Lakes, Packer Lake, and Gold Lake. Dirt spurs off the main road vary from easy to moderate.',
+          'Paved road from Hwy 49 at Bassetts climbing north through the lake country. Access to Sierra Buttes trailhead, Sardine Lakes, Packer Lake, and Salmon Lake. Gold Lake at the top is in Plumas NF. Dirt spurs off the main road vary from easy to moderate.',
       },
     ],
   },
@@ -214,7 +214,7 @@ export const tahoe: VibeGuide = {
       peakSeason: 'Jul–Sep',
       seasons: { spring: 'Limited', summer: 'Prime', fall: 'Prime', winter: 'Not recommended' },
       description:
-        'The Sierra Buttes rise above the Gold Lake basin as a jagged granite outcrop visible from 100 miles away. The historic fire lookout at 8,591 feet is still active in summer and is open to visitors when staffed. The hike from Packer Lake Saddle is about 5 miles round trip with 1,500 feet of gain. The final approach climbs a steel staircase bolted into the rock face to the catwalk. Exposure is real and not suitable for anyone uncomfortable with heights. Views cover the Yuba River drainage, the Feather River country, and on clear days a slice of Nevada.',
+        'The Sierra Buttes rise above the Sardine Lake basin as a jagged granite outcrop visible from 100 miles away. The historic fire lookout at 8,591 feet is still active in summer and is open to visitors when staffed. The hike from Packer Lake Saddle is about 5 miles round trip with 1,500 feet of gain. The final approach climbs a steel staircase bolted into the rock face to the catwalk. Exposure is real and not suitable for anyone uncomfortable with heights. Views cover the Yuba River drainage, the Feather River country, and on clear days a slice of Nevada.',
       alert: { type: 'good', text: 'Lookout open to visitors when staffed (typically weekends July–September). No permit needed.' },
       placeId: 'sierra-buttes-lookout',
     },
@@ -242,7 +242,7 @@ export const tahoe: VibeGuide = {
       peakSeason: 'Apr–Nov',
       seasons: { spring: 'Good', summer: 'Good', fall: 'Good', winter: 'Variable' },
       description:
-        'Hwy 49 threads through the heart of the northern gold country between Camptonville and Sierra City, following the North Yuba River through a series of near-intact 1850s mining towns. Downieville, at the confluence of the Downie River and the North Yuba, is the most complete: original stone buildings, a working courthouse, and a 19th-century gallows. Sierra City sits just below the Sierra Buttes and serves as a jumping-off point for the Gold Lake basin. The drive between the two towns takes 45 minutes on a two-lane road that drops into the canyon and climbs back out through second-growth pines. Every rig can make this run.',
+        'Hwy 49 threads through the heart of the northern gold country between Camptonville and Sierra City, following the North Yuba River through a series of near-intact 1850s mining towns. Downieville, at the confluence of the Downie River and the North Yuba, is the most complete: original stone buildings, a working courthouse, and a 19th-century gallows. Sierra City sits just below the Sierra Buttes and serves as a jumping-off point for the Sardine Lakes and Packer Lake basin. The drive between the two towns takes 45 minutes on a two-lane road that drops into the canyon and climbs back out through second-growth pines. Every rig can make this run.',
       alert: { type: 'good', text: 'Downieville has gas, food, and lodging. Sierra City has a general store. Both make solid basecamp towns for the northwest forest.' },
       placeId: 'downieville',
     },
@@ -304,16 +304,16 @@ export const tahoe: VibeGuide = {
       name: 'Lakes & Swimming',
       badge: 'Summer highlight',
       description:
-        'The northern Sierra lake chain is the main draw for summer visitors. Gold Lake, Sardine Lake, Packer Lake, Salmon Lake, and Bowman Lake all have swimming access. The Sardine Lakes are the most photographed but also the most crowded. Feeley and Carr lakes in the Bowman basin are quieter and accessible with a 4x4. Water temperatures in the upper lakes are cold until mid-July. South Yuba River swimming holes at Bridgeport and Edwards Crossing are warmer and reachable by AWD.',
-      placeIds: ['gold-lake', 'sardine-lakes', 'bowman-lake', 'south-yuba'],
+        'The northern Sierra lake chain is the main draw for summer visitors. Sardine Lakes, Packer Lake, Salmon Lake, and Bowman Lake all have swimming access within Tahoe NF. The Sardine Lakes are the most photographed but also the most crowded. Feeley and Carr lakes in the Bowman basin are quieter and accessible with a 4x4. Water temperatures in the upper lakes are cold until mid-July. South Yuba River swimming holes at Bridgeport and Edwards Crossing are warmer and reachable by AWD.',
+      placeIds: ['sardine-lakes', 'bowman-lake', 'south-yuba'],
     },
     {
       icon: '🎣',
       name: 'Fishing',
       badge: 'Fair by CA standards',
       description:
-        'CDFW stocks Gold Lake, Sardine Lakes, and several smaller lakes with rainbow trout through summer. Catches are fair to good in June and July, slower by August as water warms. The Middle Fork American River and South Yuba hold wild trout but fishing pressure is high near access points. Regulations vary by water body — check current CDFW regs before fishing any lake or stream in the forest.',
-      placeIds: ['gold-lake', 'south-yuba', 'french-meadows'],
+        'CDFW stocks Sardine Lakes, Packer Lake, and several smaller lakes with rainbow trout through summer. Catches are fair to good in June and July, slower by August as water warms. The Middle Fork American River and South Yuba hold wild trout but fishing pressure is high near access points. Regulations vary by water body — check current CDFW regs before fishing any lake or stream in the forest.',
+      placeIds: ['sardine-lakes', 'south-yuba', 'french-meadows'],
     },
     {
       icon: '🌙',
@@ -377,7 +377,6 @@ export const tahoe: VibeGuide = {
     { id: 'south-yuba', name: 'South Yuba River', lat: 39.2960, lng: -120.9850, description: 'Wild and scenic river with swimming holes at Bridgeport and Edwards Crossing.' },
     { id: 'sierra-buttes-lookout', name: 'Sierra Buttes Lookout', lat: 39.6080, lng: -120.6291, description: 'Historic fire lookout at 8,591 ft with catwalk open to visitors when staffed.' },
     { id: 'malakoff-diggins', name: 'Malakoff Diggins State Historic Park', lat: 39.3960, lng: -120.9017, description: 'World\'s largest hydraulic gold mine site near North Bloomfield.' },
-    { id: 'gold-lake', name: 'Gold Lake', lat: 39.6477, lng: -120.6267, description: 'Stocked trout lake in the Gold Lake basin. Paved access from Gold Lake Road.' },
     { id: 'sardine-lakes', name: 'Sardine Lakes', lat: 39.6197, lng: -120.6305, description: 'Upper and Lower Sardine Lakes below Sierra Buttes. Popular swimming and photography spot.' },
     { id: 'camp-french-meadows-east', name: 'French Meadows East Shore', lat: 39.0720, lng: -120.4810, description: 'Dispersed pull-outs along the east shore of French Meadows Reservoir.' },
     { id: 'camp-bowman-lake', name: 'Bowman Lake Dispersed', lat: 39.4640, lng: -120.6250, description: 'Dispersed camping along the north shore of Bowman Lake.' },
@@ -389,7 +388,7 @@ export const tahoe: VibeGuide = {
     { id: 'cg-salmon-creek', name: 'Salmon Creek Campground', lat: 39.6201, lng: -120.6326, description: 'Campground off Gold Lake Road near the Sardine Lakes trailhead.' },
     { id: 'henness-pass', name: 'Henness Pass Road (Camptonville start)', lat: 39.4528, lng: -121.0522, description: 'Western trailhead for the historic trans-Sierra Henness Pass route.' },
     { id: 'downieville', name: 'Downieville', lat: 39.5593, lng: -120.8304, description: 'Historic gold rush town at the confluence of the North Yuba and Downie rivers.' },
-    { id: 'sierra-city', name: 'Sierra City', lat: 39.5676, lng: -120.6326, description: 'Small town on Hwy 49 at the base of the Sierra Buttes, gateway to the Gold Lake basin.' },
+    { id: 'sierra-city', name: 'Sierra City', lat: 39.5676, lng: -120.6326, description: 'Small town on Hwy 49 at the base of the Sierra Buttes, gateway to the Sardine Lakes and Packer Lake basin.' },
     { id: 'poker-flat-ohv', name: 'Poker Flat OHV Area', lat: 39.4620, lng: -120.8750, description: 'OHV staging area and historic mining site north of Downieville.' },
   ],
 }
