@@ -1,6 +1,6 @@
 import RatingPill from './RatingPill'
 
-type SeasonRating = 'Best' | 'Good' | 'Fair' | 'Variable' | 'Closed'
+type SeasonRating = 'Best' | 'Good' | 'Fair' | 'Variable' | 'Inaccessible' | 'Closed'
 
 interface Props {
   season: string

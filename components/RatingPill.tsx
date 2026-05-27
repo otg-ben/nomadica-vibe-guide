@@ -1,15 +1,26 @@
-type Rating = 'Best' | 'Prime' | 'Great' | 'Good' | 'Fair' | 'Variable' | 'Closed' | 'Limited' | 'Not recommended'
+type Rating =
+  | 'Best'
+  | 'Good'
+  | 'Fair'
+  | 'Variable'
+  | 'Inaccessible'
+  | 'Prime'
+  | 'Great'
+  | 'Limited'
+  | 'Not recommended'
+  | 'Closed'
 
 const colors: Record<Rating, string> = {
-  Best:              'bg-emerald-600 text-white',
-  Prime:             'bg-emerald-600 text-white',
-  Great:             'bg-teal-600 text-white',
-  Good:              'bg-sky-600 text-white',
-  Fair:              'bg-amber-500 text-white',
-  Variable:          'bg-amber-400 text-white',
-  Closed:            'bg-gray-400 text-white',
-  Limited:           'bg-orange-500 text-white',
-  'Not recommended': 'bg-red-600 text-white',
+  Best:              'bg-emerald-700 text-white',
+  Prime:             'bg-emerald-700 text-white',
+  Great:             'bg-emerald-600 text-white',
+  Good:              'bg-green-500 text-white',
+  Fair:              'bg-yellow-400 text-gray-900',
+  Variable:          'bg-slate-400 text-white',
+  Inaccessible:      'bg-red-600 text-white',
+  Closed:            'bg-red-600 text-white',
+  Limited:           'bg-gray-300 text-gray-600',
+  'Not recommended': 'bg-red-200 text-red-700',
 }
 
 export default function RatingPill({ rating }: { rating: Rating }) {
