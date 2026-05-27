@@ -20,7 +20,7 @@ export const tahoe: VibeGuide = {
     { season: 'Winter', rating: 'Poor', description: 'Most forest roads close November through April. Chains required on Hwy 49 crossings.' },
   ],
 
-  crowdLevel: 7,
+  crowdLevel: 8,
 
   darkSkies: {
     rating: 3,
