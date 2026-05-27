@@ -1,6 +1,5 @@
 import { mendocino } from '@/data/mendocino'
 import RatingPill from '@/components/RatingPill'
-import SeasonCard from '@/components/SeasonCard'
 import KBYGItem from '@/components/KBYGItem'
 import AnchorCard from '@/components/AnchorCard'
 import RecCard from '@/components/RecCard'
@@ -52,14 +51,18 @@ export default function VibePage() {
 
           {/* Vehicle Ratings */}
           <div className="pt-7">
-            <p className="text-[10px] font-black uppercase tracking-widest text-gray-400 mb-3">Vehicle Accessibility</p>
-            <div className="grid grid-cols-2 gap-x-8 gap-y-2.5">
-              {g.vehicleRatings.map(v => (
-                <div key={v.type} className="flex items-center justify-between">
-                  <span className="text-sm text-gray-700 font-medium">{v.type}</span>
-                  <RatingPill rating={v.rating as any} />
-                </div>
-              ))}
+            <p className="text-[10px] font-black uppercase tracking-widest text-gray-400 mb-4">Vehicle Accessibility</p>
+            <div className="space-y-2.5">
+              {(['Best', 'Good', 'Fair', 'Variable', 'Inaccessible'] as const).map(rating => {
+                const vehicles = g.vehicleRatings.filter(v => v.rating === rating)
+                if (!vehicles.length) return null
+                return (
+                  <div key={rating} className="flex items-center gap-3">
+                    <RatingPill rating={rating as any} />
+                    <span className="text-sm text-gray-600">{vehicles.map(v => v.type).join(' · ')}</span>
+                  </div>
+                )
+              })}
             </div>
           </div>
 
@@ -67,11 +70,21 @@ export default function VibePage() {
 
           {/* Seasons */}
           <div>
-            <p className="text-[10px] font-black uppercase tracking-widest text-gray-400 mb-3">Best Seasons</p>
-            <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-1">
-              {g.seasonRatings.map(s => (
-                <SeasonCard key={s.season} season={s.season} rating={s.rating as any} />
-              ))}
+            <p className="text-[10px] font-black uppercase tracking-widest text-gray-400 mb-4">Best Seasons</p>
+            <div className="grid grid-cols-4 gap-1.5">
+              {g.seasonRatings.map(s => {
+                const tileClass = s.rating === 'Best' ? 'bg-emerald-700 text-white'
+                  : s.rating === 'Good' ? 'bg-emerald-100 text-emerald-800'
+                  : s.rating === 'Fair' ? 'bg-yellow-100 text-yellow-800'
+                  : s.rating === 'Variable' ? 'bg-slate-200 text-slate-700'
+                  : 'bg-red-100 text-red-700'
+                return (
+                  <div key={s.season} className={`rounded-xl py-3 px-1 text-center ${tileClass}`}>
+                    <p className="text-[10px] font-bold uppercase tracking-wide opacity-60">{s.season.slice(0, 3)}</p>
+                    <p className="text-xs font-black mt-1 leading-tight">{s.rating}</p>
+                  </div>
+                )
+              })}
             </div>
           </div>
 

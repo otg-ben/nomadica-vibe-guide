@@ -12,7 +12,9 @@ const photos = [
 
 export default function PhotoGallery() {
   const [loaded, setLoaded] = useState<Record<number, boolean>>({})
+  const [current, setCurrent] = useState(0)
   const imgRefs = useRef<(HTMLImageElement | null)[]>([])
+  const scrollRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     imgRefs.current.forEach((img, i) => {
@@ -22,9 +24,43 @@ export default function PhotoGallery() {
     })
   }, [])
 
+  const scrollTo = (index: number) => {
+    const container = scrollRef.current
+    if (!container) return
+    const card = container.children[index] as HTMLElement
+    if (!card) return
+    container.scrollTo({ left: card.offsetLeft, behavior: 'smooth' })
+    setCurrent(index)
+  }
+
+  const prev = () => scrollTo(Math.max(0, current - 1))
+  const next = () => scrollTo(Math.min(photos.length - 1, current + 1))
+
   return (
     <div className="relative">
-      <div className="flex gap-2 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-1">
+      {/* Arrow: prev */}
+      {current > 0 && (
+        <button
+          onClick={prev}
+          className="absolute left-2 top-1/2 -translate-y-6 z-10 w-9 h-9 bg-white/90 backdrop-blur-sm rounded-full shadow-lg flex items-center justify-center text-gray-700 hover:bg-white transition-colors"
+          aria-label="Previous photo"
+        >
+          ‹
+        </button>
+      )}
+
+      {/* Arrow: next */}
+      {current < photos.length - 1 && (
+        <button
+          onClick={next}
+          className="absolute right-2 top-1/2 -translate-y-6 z-10 w-9 h-9 bg-white/90 backdrop-blur-sm rounded-full shadow-lg flex items-center justify-center text-gray-700 hover:bg-white transition-colors"
+          aria-label="Next photo"
+        >
+          ›
+        </button>
+      )}
+
+      <div ref={scrollRef} className="flex gap-2 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-1">
         {photos.map((photo, i) => (
           <div
             key={i}
@@ -42,14 +78,21 @@ export default function PhotoGallery() {
                 if (el) el.setAttribute('data-placeholder', 'true')
               }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none" />
-            <div className="absolute bottom-3 left-3 text-white/70 text-xs font-medium">{photo.alt}</div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none" />
+            <div className="absolute bottom-3 left-3 text-white/80 text-xs font-medium">{photo.alt}</div>
           </div>
         ))}
       </div>
+
+      {/* Dot indicators */}
       <div className="flex justify-center gap-1.5 mt-3">
         {photos.map((_, i) => (
-          <div key={i} className="w-1 h-1 rounded-full bg-gray-300" />
+          <button
+            key={i}
+            onClick={() => scrollTo(i)}
+            className={`rounded-full transition-all ${i === current ? 'w-4 h-1.5 bg-white' : 'w-1.5 h-1.5 bg-white/40'}`}
+            aria-label={`Go to photo ${i + 1}`}
+          />
         ))}
       </div>
     </div>
