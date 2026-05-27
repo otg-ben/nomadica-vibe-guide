@@ -199,28 +199,46 @@ export default function VibePage() {
         <Section title="Featured Overland Routes">
           <div className="space-y-4">
             {g.overlandRoutes.map(route => (
-              <div key={route.name} className="bg-white rounded-2xl shadow-sm p-5 space-y-3">
-                <div className="flex items-start justify-between gap-2">
-                  <h3 className="font-black text-gray-900 text-base">{route.name}</h3>
-                  {route.link && route.link !== '#' && (
-                    <a href={route.link} className="text-xs font-bold text-emerald-700 border border-emerald-200 bg-emerald-50 rounded-full px-3 py-1 shrink-0 hover:bg-emerald-100 transition-colors">
-                      ↗ OTG Guide
-                    </a>
-                  )}
-                </div>
-                <div className="flex flex-wrap gap-2 text-xs text-gray-400 font-semibold">
-                  <span>{route.distance}</span><span>·</span>
-                  <span>{route.duration}</span><span>·</span>
-                  <span>{route.season}</span>
-                </div>
-                {route.vehicles && route.vehicles.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5">
-                    {route.vehicles.map(v => (
-                      <span key={v} className="text-xs bg-emerald-50 border border-emerald-200 text-emerald-800 font-semibold px-2.5 py-0.5 rounded-full">{v}</span>
-                    ))}
+              <div key={route.name} className="bg-white rounded-2xl shadow-sm overflow-hidden">
+                {route.photo && (
+                  <div className="relative h-44 overflow-hidden">
+                    <img src={route.photo} alt={route.name} className="w-full h-full object-cover" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                    <div className="absolute bottom-0 left-0 right-0 px-4 pb-4 flex items-end justify-between gap-2">
+                      <h3 className="font-black text-white text-base leading-tight">{route.name}</h3>
+                      {route.link && route.link !== '#' && (
+                        <a href={route.link} target="_blank" rel="noopener noreferrer" className="text-xs font-bold text-white border border-white/50 bg-white/20 backdrop-blur-sm rounded-full px-3 py-1 shrink-0 hover:bg-white/30 transition-colors whitespace-nowrap">
+                          ↗ OTG Guide
+                        </a>
+                      )}
+                    </div>
                   </div>
                 )}
-                <p className="text-sm text-gray-600 leading-relaxed">{route.description}</p>
+                <div className="p-5 space-y-3">
+                  {!route.photo && (
+                    <div className="flex items-start justify-between gap-2">
+                      <h3 className="font-black text-gray-900 text-base">{route.name}</h3>
+                      {route.link && route.link !== '#' && (
+                        <a href={route.link} target="_blank" rel="noopener noreferrer" className="text-xs font-bold text-emerald-700 border border-emerald-200 bg-emerald-50 rounded-full px-3 py-1 shrink-0 hover:bg-emerald-100 transition-colors">
+                          ↗ OTG Guide
+                        </a>
+                      )}
+                    </div>
+                  )}
+                  <div className="flex flex-wrap gap-2 text-xs text-gray-400 font-semibold">
+                    <span>{route.distance}</span><span>·</span>
+                    <span>{route.duration}</span><span>·</span>
+                    <span>{route.season}</span>
+                  </div>
+                  {route.vehicles && route.vehicles.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5">
+                      {route.vehicles.map(v => (
+                        <span key={v} className="text-xs bg-emerald-50 border border-emerald-200 text-emerald-800 font-semibold px-2.5 py-0.5 rounded-full">{v}</span>
+                      ))}
+                    </div>
+                  )}
+                  <p className="text-sm text-gray-600 leading-relaxed">{route.description}</p>
+                </div>
               </div>
             ))}
           </div>
