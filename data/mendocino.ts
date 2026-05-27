@@ -191,7 +191,7 @@ export const mendocino: VibeGuide = {
       vehicles: ['AWD / Crossover', 'Sprinter / Van', 'Stock 4x4'],
       season: 'Late Apr – Nov',
       description: 'The original California BDT, first put together in the mid-1990s, more than a decade before the KTM Backcountry Discovery Routes. Runs the full length of M1 from Upper Lake north to Covelo, passing through Hull Mountain, Bald Mountain, and the Black Butte and Eel Rivers. Wide dirt and gravel the whole way. Strong introductory overland route in California. Technical rating averages 2, peaks at 3.',
-      link: 'https://www.overlandtrailguides.com/post/overland-mendocino-nf-guide-map-gpx',
+      link: 'https://www.overlandtrailguides.com/post/mendocino-backcountry-discovery-trail',
       photo: 'https://static.wixstatic.com/media/acf3a1_1fc1603b46874bc186811787167d2487~mv2.jpeg',
     },
     {
