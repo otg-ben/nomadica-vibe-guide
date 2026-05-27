@@ -127,7 +127,7 @@ export const mendocino: VibeGuide = {
   ],
   crowdLevel: 4,
   darkSkies: {
-    rating: 5,
+    rating: 4,
     description: '',
   },
   attributeTags: [
