@@ -225,6 +225,7 @@ export const mendocino: VibeGuide = {
     developedCampgrounds: [
       { name: 'Oak Flat Campground', description: 'Best in the shoulder seasons. Elk graze throughout Gravelly Valley, especially mid-week when the crowds are gone. Fee required.', placeId: 'oak-flat' },
       { name: 'Board Tree Campground', description: 'A free campground with expansive views of the mountains to the south and west. Quieter than the lake campgrounds and a good base for the surrounding road network.', placeId: 'board-tree' },
+      { name: 'Bear Creek Campground', description: 'Wide, open equestrian camp under a canopy of mature valley oaks. Bear Creek runs close enough to sit in on a hot afternoon and stays cold through the summer months. Pit toilet on site. Access requires crossing the Rice Fork: easy in summer when it\'s running around 12 inches, but deep and fast during winter and early spring snowmelt. Do not push through in high water.', placeId: 'bear-creek-cg' },
     ],
   },
   anchorExperiences: [
@@ -361,5 +362,6 @@ export const mendocino: VibeGuide = {
     { id: 'bloody-rock', name: 'Bloody Rock', lat: 39.7500, lng: -123.1000, description: 'Outcrop with deep Wailaki history. Worth the short hike.' },
     { id: 'm1-ridge', name: 'M1 Ridge (Hull Mountain North)', lat: 39.6200, lng: -122.9300, description: 'Excellent stargazing corridor along the upper ridge.' },
     { id: 'atchison-cabin', name: 'Atchison Cabin', lat: 39.6100, lng: -122.9100, description: 'Historic pioneer cabin. Verify condition before visiting.' },
+    { id: 'bear-creek-cg', name: 'Bear Creek Campground', lat: 39.32152, lng: -122.83920, description: 'Equestrian camp under mature valley oaks. Bear Creek nearby. Rice Fork crossing required — easy in summer, potentially impassable in winter and early spring.' },
   ],
 }

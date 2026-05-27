@@ -26,7 +26,7 @@ export const tahoe: VibeGuide = {
   darkSkies: {
     rating: 4,
     description:
-      'Confirmed Bortle Class 2 at the Bowman Lake Basin and Jackson Meadows Reservoir — the Milky Way shows detailed structure and dark nebulae are visible to the naked eye. No designated dark sky parks inside the forest, but the Grouse Ridge area (FR 17) and Meadow Lake shoreline are the best spots: wide open horizons above tree line, above 6,000 feet. Stay away from the western edge near Nevada City and the I-80 corridor.',
+      'Confirmed Bortle Class 2 at the Bowman Lake Basin and Jackson Meadows Reservoir. The Milky Way shows detailed structure and dark nebulae are visible to the naked eye. No designated dark sky parks inside the forest. The Grouse Ridge area (FR 17) and Meadow Lake shoreline give wide unobstructed horizons above tree line above 6,000 feet. The western edge near Nevada City and the I-80 corridor are too light-polluted to bother.',
   },
 
   attributeTags: [
@@ -40,9 +40,9 @@ export const tahoe: VibeGuide = {
 
   overview: [
     'Tahoe National Forest runs along the crest of the northern Sierra Nevada from the North Fork of the American River to the Yuba River watershed. It covers approximately 850,000 acres and sees more visitors than any other California national forest. That popularity is earned: the combination of granite peaks, high-elevation lakes, swift rivers, and gold rush ghost towns is hard to match.',
-    'The terrain is classic Sierra granite: steep canyon walls carved by glaciers, talus slopes, meadows fed by snowmelt, and ridgelines that top out near 9,000 feet. The western slopes — accessed from Hwy 49 towns like Grass Valley and Nevada City — are lower, denser, and greener. The eastern interior, above 6,500 feet, opens into exposed granite and lake-dotted high country that draws drivers and hikers from all over the state.',
+    'The terrain is classic Sierra granite: steep canyon walls carved by glaciers, talus slopes, meadows fed by snowmelt, and ridgelines that top out near 9,000 feet. The western slopes, accessed from Hwy 49 towns like Grass Valley and Nevada City, are lower, denser, and greener. The eastern interior, above 6,500 feet, opens into exposed granite and lake-dotted high country that draws drivers and hikers from all over the state.',
     'About half the forest road network is unpaved. Stock 4x4 trucks handle the majority of it without issue. The Bowman Lake Road corridor, Sierra Buttes area, French Meadows, and Henness Pass route reward vehicles with good clearance and time to explore. AWD crossovers can reach the developed campground hubs and most paved forest routes, but dispersed camping in the backcountry is largely a stock 4x4 proposition.',
-    'Main entry hubs: Truckee via I-80 (southeast), Nevada City and Grass Valley via Hwy 49 (west), Sierraville from the north. Fuel up in town before heading in — gaps between stations are long once you are on forest roads.',
+    'Main entry hubs: Truckee via I-80 (southeast), Nevada City and Grass Valley via Hwy 49 (west), Sierraville from the north. Fuel up in town before heading in. Gaps between stations are long once you are on forest roads.',
   ],
 
   kbyg: [
@@ -60,7 +60,7 @@ export const tahoe: VibeGuide = {
     },
     {
       type: 'info',
-      text: 'Nearest full resupply: Nevada City and Grass Valley (western approach), Truckee (southeast). Downieville and Sierra City have limited options — fuel in Downieville is available but premium priced.',
+      text: 'Nearest full resupply: Nevada City and Grass Valley (western approach), Truckee (southeast). Downieville and Sierra City have limited options. Fuel in Downieville is available but premium priced.',
     },
     {
       type: 'info',
@@ -89,7 +89,7 @@ export const tahoe: VibeGuide = {
       placeId: 'bowman-lake',
       photo: '',
       description:
-        'North of Hwy 20, Bowman Lake Road climbs into a granite basin with more small alpine lakes than most people know about: Bowman, Faucherie, Sawmill, Carr, Culbertson, Bullpen, Deadman, and Feeley. The first 8 miles from Hwy 20 are paved but narrow. The next 3 miles are graded gravel. The final 3 miles past the Carr Lake turnoff to Bowman Lake are rough, single-lane, and rocky — stock 4x4 with skid plates, 10 mph. Grouse Ridge Road runs the ridgeline above with views toward the Buttes and is one of the best dark sky corridors in the forest.',
+        'North of Hwy 20, Bowman Lake Road climbs into a granite basin with more small alpine lakes than most people know about: Bowman, Faucherie, Sawmill, Carr, Culbertson, Bullpen, Deadman, and Feeley. The first 8 miles from Hwy 20 are paved but narrow. The next 3 miles are graded gravel. The final 3 miles past the Carr Lake turnoff to Bowman Lake are rough, single-lane, and rocky. Stock 4x4 with skid plates, 10 mph. Grouse Ridge Road runs the ridgeline above with views toward the Buttes and is the darkest sky area in this part of the forest.',
     },
     {
       name: 'French Meadows Reservoir',
@@ -103,7 +103,7 @@ export const tahoe: VibeGuide = {
       placeId: 'henness-pass',
       photo: '',
       description:
-        'A historic trans-Sierra wagon road connecting Hwy 89 north of Truckee to the Sierra Valley and continuing west toward Camptonville. Forest Road 07 runs the unpaved sections — wide, bumpy, and dusty with occasional washboard. Under dry summer conditions it is passable for AWD crossovers. High-clearance 4x4 is recommended for the rougher washboard sections and any dispersed camping spurs off the main corridor. Numerous flat, forested pullouts between Kyburz Flat and Jackson Meadows make it one of the best van and truck camping corridors in the forest.',
+        'A historic trans-Sierra wagon road connecting Hwy 89 north of Truckee to the Sierra Valley and continuing west toward Camptonville. Forest Road 07 runs the unpaved sections: wide, bumpy, and dusty with occasional washboard. Under dry summer conditions it is passable for AWD crossovers. High-clearance 4x4 is better for the rougher washboard sections and the dispersed camping spurs off the main corridor. Numerous flat, forested pullouts between Kyburz Flat and Jackson Meadows make for good van and truck camping.',
     },
     {
       name: 'Foresthill Divide & Sugar Pine',
@@ -123,7 +123,7 @@ export const tahoe: VibeGuide = {
 
   roadNetwork: {
     prose:
-      'The forest has roughly 800 miles of road, about half unpaved. The main paved corridors — Hwy 49 along the west edge, I-80 through the south, and Hwy 89 to the east — serve as staging routes. From there, a dense web of forest roads branches into the interior. Stock 4x4 trucks can reach French Meadows, the Sierra Buttes lake basin, and the Bowman Lake Road corridor without modification (final 3 miles to Bowman Lake require high clearance and skid plates). Fuel gaps are real once you leave the highway towns.',
+      'The forest has roughly 800 miles of road, about half unpaved. Hwy 49 along the west edge, I-80 through the south, and Hwy 89 to the east serve as staging routes. From there, a dense web of forest roads branches into the interior. Stock 4x4 trucks can reach French Meadows, the Sierra Buttes lake basin, and the Bowman Lake Road corridor without modification. The final 3 miles to Bowman Lake require high clearance and skid plates. Fuel gaps are real once you leave the highway towns.',
     vehicleRatings: [
       { type: 'AWD / Crossover', rating: 'Fair' },
       { type: 'Sprinter / Van', rating: 'Fair' },
@@ -139,7 +139,7 @@ export const tahoe: VibeGuide = {
       {
         name: 'FR 96 / Mosquito Ridge',
         description:
-          'Primary access to French Meadows Reservoir. Paved to the reservoir (AWD crossover fine). Mosquito Ridge Road branches off — paved, narrow, cliff-clinging — and runs to Hell Hole Reservoir with Middle Fork American River trailheads along the way.',
+          'Primary access to French Meadows Reservoir. Paved to the reservoir (AWD crossover fine). Mosquito Ridge Road branches off: paved, narrow, cliff-clinging, runs to Hell Hole Reservoir with Middle Fork American River trailheads along the way.',
       },
       {
         name: 'Foresthill Divide Rd',
@@ -176,7 +176,7 @@ export const tahoe: VibeGuide = {
 
   camping: {
     prose:
-      'Dispersed camping is free with no reservation required. The best corridors are the Bowman Lake basin, French Meadows Reservoir, the Henness Pass corridor between Kyburz Flat and Jackson Meadows, and the roads north of Packer Saddle in the Sierra Buttes area. Sites fill fast on summer weekends — aim for Tuesday through Thursday arrivals. Check fs.usda.gov/tahoe for current fire permit requirements and any active closures.',
+      'Dispersed camping is free with no reservation required. The best corridors are the Bowman Lake basin, French Meadows Reservoir, the Henness Pass corridor between Kyburz Flat and Jackson Meadows, and the roads north of Packer Saddle in the Sierra Buttes area. Sites fill fast on summer weekends. Aim for Tuesday through Thursday arrivals. Check fs.usda.gov/tahoe for current fire permit requirements and any active closures.',
     dispersedSpots: [
       {
         name: 'Bowman Lake North Shore',
@@ -190,7 +190,7 @@ export const tahoe: VibeGuide = {
       },
       {
         name: 'Grouse Ridge Road (FR 17)',
-        description: 'Ridge sites with wide open sky — one of the best dark sky spots in the forest. Exposed to wind. No water.',
+        description: 'Ridge sites with wide open sky. Bortle Class 2 dark skies. Exposed to wind. No water.',
         placeId: 'camp-grouse-ridge',
       },
       {
@@ -253,13 +253,13 @@ export const tahoe: VibeGuide = {
       peakSeason: 'Jun–Oct',
       seasons: { spring: 'Variable', summer: 'Prime', fall: 'Good', winter: 'Not recommended' },
       description:
-        'One of the original trans-Sierra emigrant roads, Henness Pass carried gold rush migrants and freight wagons between 1850 and the railroad era. Forest Road 07 connects Hwy 89 north of Truckee to the Sierra Valley and continues west toward Camptonville on a mix of paved and unpaved road. The unpaved sections are wide, bumpy, and dusty — passable for AWD crossovers in dry summer conditions. High-clearance is better for the washboard sections and the dispersed camping spurs. The route crosses the Sierra crest with almost no traffic and dozens of flat forested camping spots between Kyburz Flat and Jackson Meadows.',
+        'One of the original trans-Sierra emigrant roads, Henness Pass carried gold rush migrants and freight wagons between 1850 and the railroad era. Forest Road 07 connects Hwy 89 north of Truckee to the Sierra Valley and continues west toward Camptonville on a mix of paved and unpaved road. The unpaved sections are wide, bumpy, and dusty. Passable for AWD crossovers in dry summer conditions. High-clearance is better for the washboard sections and the dispersed camping spurs. The route crosses the Sierra crest with almost no traffic and dozens of flat forested camping spots between Kyburz Flat and Jackson Meadows.',
       alert: { type: 'warning', text: 'Upper crossing closes in winter. Check road conditions at the Nevada County or Sierra County ranger districts before early-season attempts.' },
       placeId: 'henness-pass',
     },
     {
       id: 'hwy49-gold-towns',
-      name: 'Hwy 49 — Downieville to Sierra City',
+      name: 'Hwy 49: Downieville to Sierra City',
       icon: '🏘️',
       photo: '',
       vehicles: ['AWD / Crossover', 'Sprinter / Van', 'Stock 4x4', 'Modified 4x4'],
@@ -281,7 +281,7 @@ export const tahoe: VibeGuide = {
       peakSeason: 'Jul–Oct',
       seasons: { spring: 'Limited', summer: 'Prime', fall: 'Good', winter: 'Not recommended' },
       description:
-        'Bowman Lake anchors one of the densest clusters of alpine lakes in the northern Sierra: Faucherie, Sawmill, Carr, Culbertson, Bullpen, Deadman, and Feeley all sit within a few miles. The approach road filters out anything without real clearance — AWD crossovers can reach the Carr Lake turnoff (8 miles of pavement plus 3 miles of gravel), but the final 3 miles to Bowman Lake are rough, rocky, and single-lane with skid plates strongly recommended. Grouse Ridge Road runs the ridgeline above and is one of the best dark sky corridors in the forest.',
+        'Bowman Lake anchors a dense cluster of alpine lakes: Faucherie, Sawmill, Carr, Culbertson, Bullpen, Deadman, and Feeley all sit within a few miles. The approach road filters out anything without real clearance. AWD crossovers can reach the Carr Lake turnoff (8 miles of pavement plus 3 miles of gravel), but the final 3 miles to Bowman Lake are rough, rocky, and single-lane. Skid plates strongly recommended. Grouse Ridge Road runs the ridgeline above with Bortle Class 2 dark skies and wide views toward the Buttes.',
       alert: { type: 'warning', text: 'Final 3 miles to Bowman Lake require high-clearance stock 4x4. No trailers or boats past the paved section.' },
       placeId: 'bowman-lake',
     },
@@ -295,7 +295,7 @@ export const tahoe: VibeGuide = {
       peakSeason: 'Jun–Oct',
       seasons: { spring: 'Variable', summer: 'Prime', fall: 'Good', winter: 'Not recommended' },
       description:
-        'A rugged 27-mile overland loop starting from Downieville and climbing into the gold-mining regions of Sierra County. Graded forest roads, rocky jeep tracks, and narrow shelf roads with exposure. A key obstacle is a steep, loose climb between Poker Flat and Howland Flat alongside a creek crossing that benefits from a spotter. High-clearance stock 4x4 with skid plates and all-terrain tires. The historic Poker Flat site — placer tailings and stone foundations in a narrow canyon — was made famous by Bret Harte\'s 1869 short story. Out-and-back from Downieville or connect north toward La Porte.',
+        'A rugged 27-mile overland loop starting from Downieville and climbing into the gold-mining regions of Sierra County. Graded forest roads, rocky jeep tracks, and narrow shelf roads with exposure. A key obstacle is a steep, loose climb between Poker Flat and Howland Flat alongside a creek crossing that benefits from a spotter. High-clearance stock 4x4 with skid plates and all-terrain tires. The historic Poker Flat site, placer tailings and stone foundations in a narrow canyon, was made famous by Bret Harte\'s 1869 short story. Out-and-back from Downieville or connect north toward La Porte.',
       alert: { type: 'warning', text: 'High-clearance stock 4x4 with skid plates required. Confirm road conditions at the Downieville Ranger District before heading out.' },
       placeId: 'poker-flat-ohv',
     },
@@ -329,7 +329,7 @@ export const tahoe: VibeGuide = {
       name: 'Lakes & Swimming',
       badge: 'Summer highlight',
       description:
-        'River swimming is generally not safe until July when snowmelt flows drop to stable levels and granite riverbeds warm up. After that, the options are good. South Yuba Shangri-La (under the Hwy 49 bridge northwest of Nevada City) has granite boulders, natural water slides, and deep pools. Bridgeport and Edwards Crossing in South Yuba State Park are classic. Carr Lake in the Bowman Basin is warmer than the deeper alpine lakes and good for wading. Jackson Meadows Reservoir has gravel beaches and a designated swim area. The Sardine and Packer Lakes are scenic but stay cold due to snowmelt — best for a quick dip, not a long swim. Avoid the Middle Fork American River main stem: it is a high-flow whitewater corridor with underwater hazards.',
+        'River swimming is generally not safe until July when snowmelt flows drop to stable levels and granite riverbeds warm up. South Yuba Shangri-La, under the Hwy 49 bridge northwest of Nevada City, has granite boulders, natural water slides, and deep pools. Bridgeport and Edwards Crossing in South Yuba State Park are the classic stops. Carr Lake in the Bowman Basin is warmer than the deeper alpine lakes and good for wading. Jackson Meadows Reservoir has gravel beaches and a designated swim area. Sardine and Packer lakes stay cold due to snowmelt feed: fine for a quick dip, not a long swim. Avoid the Middle Fork American River main stem. It is a high-flow whitewater corridor with underwater hazards.',
       placeIds: ['south-yuba', 'cg-carr-lake', 'jackson-meadows', 'sardine-lakes'],
     },
     {
@@ -337,7 +337,7 @@ export const tahoe: VibeGuide = {
       name: 'Fishing',
       badge: 'Good variety',
       description:
-        'CDFW regularly stocks Boca Reservoir (rainbow, brown trout, kokanee salmon), Carr Lake, Culbertson Lake, Bullpen Lake, Deadman Lake, and Baltimore Lake (brook trout fingerlings every other year) with triploid rainbow trout. Bullards Bar Reservoir and Sugar Pine Reservoir are warm-water fisheries holding largemouth, smallmouth, and spotted bass — not stocked with trout. Wild and Heritage Trout Waters inside the forest include Lavezzola Creek and Pauley Creek near Downieville, Milton Reservoir on the Middle Fork Yuba, the Truckee River, and sections of the North Fork American River — all designated catch-and-release with barbless hooks and artificial lures only. Best trout action is spring (May–June) and fall (September–October); mid-summer fish go deep.',
+        'CDFW regularly stocks Boca Reservoir (rainbow, brown trout, kokanee salmon), Carr Lake, Culbertson Lake, Bullpen Lake, Deadman Lake, and Baltimore Lake (brook trout fingerlings every other year) with triploid rainbow trout. Bullards Bar Reservoir and Sugar Pine Reservoir are warm-water bass fisheries (largemouth, smallmouth, and spotted bass). No trout stocking. Wild and Heritage Trout Waters inside the forest include Lavezzola Creek and Pauley Creek near Downieville, Milton Reservoir on the Middle Fork Yuba, the Truckee River, and sections of the North Fork American River. All are designated catch-and-release with barbless hooks and artificial lures only. Best trout action is spring (May–June) and fall (September–October); mid-summer fish go deep.',
       placeIds: ['boca-reservoir', 'bowman-lake', 'south-yuba'],
     },
     {
@@ -345,7 +345,7 @@ export const tahoe: VibeGuide = {
       name: 'Dark Skies',
       badge: 'Bortle Class 2 interior',
       description:
-        'The forest interior at elevation is genuinely dark. Confirmed Bortle Class 2 at the Bowman Lake Basin and Jackson Meadows area — the Milky Way shows complex structure and dark nebulae are naked-eye visible. No certified dark sky parks exist inside the forest, but the Grouse Ridge Lookout area (FR 17) and Meadow Lake shoreline give wide unobstructed horizons above tree line. Best windows: late August through October when smoke clears and summer moisture drops. The western edge near Nevada City and anything near I-80 is too light-polluted to bother.',
+        'Confirmed Bortle Class 2 at the Bowman Lake Basin and Jackson Meadows area. The Milky Way shows complex structure and dark nebulae are naked-eye visible. No certified dark sky parks exist inside the forest, but the Grouse Ridge Lookout area (FR 17) and Meadow Lake shoreline give wide unobstructed horizons above tree line. Best windows: late August through October when smoke clears and summer moisture drops. The western edge near Nevada City and anything near I-80 is too light-polluted to bother.',
       placeIds: ['camp-grouse-ridge', 'bowman-lake'],
     },
     {
@@ -353,7 +353,7 @@ export const tahoe: VibeGuide = {
       name: 'Day Hikes',
       badge: 'Summer highlight',
       description:
-        'Sierra Buttes Lookout: drive to the upper staging area off Gold Lake Highway, short walk up the fire road, then 180 stairs to the catwalk at 8,591 ft. Stock 4x4 to trailhead. Loch Leven Lakes: 6 miles round trip, ~1,000 ft gain, off I-80 at Big Bend — cascading waterfalls, granite slabs, three alpine lakes. AWD accessible. Donner Lake Rim (Glacier Way segment): 4.5 miles, ~600 ft, trailhead off Glacier Way in Truckee — views looking down on Donner Lake and the Sierra Crest. AWD accessible. Sand Ridge and Baltimore Lake: 4.8 miles, ~700 ft, Grouse Ridge Trailhead on FR 17 — stock 4x4 required for the approach. Alpine granite walking with access to Baltimore Lake. Most high-country trailheads open by late June.',
+        'Sierra Buttes Lookout: drive to the upper staging area off Gold Lake Highway, short walk up the fire road, then 180 stairs to the catwalk at 8,591 ft. Stock 4x4 to trailhead. Loch Leven Lakes: 6 miles round trip, ~1,000 ft gain, off I-80 at Big Bend. Cascading waterfalls, granite slabs, three alpine lakes. AWD accessible. Donner Lake Rim (Glacier Way segment): 4.5 miles, ~600 ft, trailhead off Glacier Way in Truckee. Views looking down on Donner Lake and the Sierra Crest. AWD accessible. Sand Ridge and Baltimore Lake: 4.8 miles, ~700 ft, Grouse Ridge Trailhead on FR 17. Stock 4x4 required for the approach. Alpine granite walking with access to Baltimore Lake. Most high-country trailheads open by late June.',
       placeIds: ['sierra-buttes-lookout', 'loch-leven', 'donner-lake-rim', 'camp-grouse-ridge'],
     },
   ],
@@ -363,16 +363,16 @@ export const tahoe: VibeGuide = {
       title: 'Nisenan and Washoe Homelands',
       photo: '',
       body: [
-        'The Nisenan people — the southernmost branch of the Maidu — inhabited the western Sierra slopes from the American River north through the Yuba, Bear, and Feather river drainages. Their territory extended from the Sacramento Valley floor to the high-elevation crest. Documented village sites near the modern forest boundary include Tipotoya and Loyowisa near Grass Valley, Takema on the Bear River near Colfax, and Hangwite on the American River near Auburn. Bedrock mortar grinding stations and archaeological sites including the Hawley Lake petroglyphs (CA-SIE-1) are found throughout the forest.',
-        'The Washoe Tribe held the high Sierra country to the east, centering on Lake Tahoe — Da ow a ga, meaning "edge of the lake" — and crossing the Sierra crest at Donner Pass for thousands of years. Both nations suffered catastrophic losses after 1848. Neither ceded their land by treaty. The Washoe Tribe is federally recognized today with a government presence in Gardnerville, Nevada.',
+        'The Nisenan people, the southernmost branch of the Maidu, inhabited the western Sierra slopes from the American River north through the Yuba, Bear, and Feather river drainages. Their territory extended from the Sacramento Valley floor to the high-elevation crest. Documented village sites near the modern forest boundary include Tipotoya and Loyowisa near Grass Valley, Takema on the Bear River near Colfax, and Hangwite on the American River near Auburn. Bedrock mortar grinding stations and archaeological sites including the Hawley Lake petroglyphs (CA-SIE-1) are found throughout the forest.',
+        'The Washoe Tribe held the high Sierra country to the east, centering on Lake Tahoe (Da ow a ga, meaning "edge of the lake") and crossing the Sierra crest at Donner Pass for thousands of years. Both nations suffered catastrophic losses after 1848. Neither ceded their land by treaty. The Washoe Tribe is federally recognized today with a government presence in Gardnerville, Nevada.',
       ],
     },
     {
       title: 'Gold Rush and Hydraulic Mining',
       photo: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/The_Diggins_at_Malakoff_Diggins_State_Park_in_California.JPG',
       body: [
-        'The 1848 gold discovery at Sutter\'s Mill transformed what is now Tahoe National Forest within months. Placer mining in the Deer Creek and Nevada City drainages was so dense that by 1850 over 10,000 miners worked the creek beds, and the practice of miners excavating underground tunnels gave Nevada City\'s Coyote Street its name. Dutch Flat, established in 1851, boomed to over 5,000 residents and 40 claims within 1.5 miles. Forest City, on the North Fork of Oregon Creek inside the forest, became a National Register Historic District — uniquely, the land is entirely publicly owned and managed by the U.S. Forest Service.',
-        'Hydraulic operations using high-pressure water cannons took over by the 1860s. Malakoff Diggins, north of Nevada City, became the largest hydraulic gold mine in the world. The downstream debris choked the Sacramento River system and destroyed farmland. A federal injunction in 1884 — Woodruff v. North Bloomfield Mining Company — effectively ended hydraulic mining in California, one of the first significant environmental rulings in American legal history.',
+        'The 1848 gold discovery at Sutter\'s Mill transformed what is now Tahoe National Forest within months. Placer mining in the Deer Creek and Nevada City drainages was so dense that by 1850 over 10,000 miners worked the creek beds, and the practice of miners excavating underground tunnels gave Nevada City\'s Coyote Street its name. Dutch Flat, established in 1851, boomed to over 5,000 residents and 40 claims within 1.5 miles. Forest City, on the North Fork of Oregon Creek inside the forest, became a National Register Historic District. Uniquely, the land is entirely publicly owned and managed by the U.S. Forest Service.',
+        'Hydraulic operations using high-pressure water cannons took over by the 1860s. Malakoff Diggins, north of Nevada City, became the largest hydraulic gold mine in the world. The downstream debris choked the Sacramento River system and destroyed farmland. A federal injunction in 1884 (Woodruff v. North Bloomfield Mining Company) effectively ended hydraulic mining in California, one of the first significant environmental rulings in American legal history.',
       ],
       placeId: 'malakoff-diggins',
     },
@@ -380,7 +380,7 @@ export const tahoe: VibeGuide = {
       title: 'Sierra Buttes Fire Lookout',
       photo: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Upper_Sardine_Lake_and_the_Sierra_Buttes%2C_California.jpg',
       body: [
-        'In 1915, under Forest Supervisor Bigelow, the Tahoe National Forest received funding to construct a lookout on the Sierra Buttes and install a telephone line to Sierra City. Reaching the summit originally required climbing rickety wooden ladders. In 1920 Miss Rena Tomola served as the national forest lookout at the summit — an early example of women employed in wildfire detection. The current two-story, 14\'x14\' steel and concrete structure was built in 1963–64, with the staircase engineered by Richard Eacobacci using WWII-era vehicles to haul materials up Butcher Ranch Road.',
+        'In 1915, under Forest Supervisor Bigelow, the Tahoe National Forest received funding to construct a lookout on the Sierra Buttes and install a telephone line to Sierra City. Reaching the summit originally required climbing rickety wooden ladders. In 1920 Miss Rena Tomola served as the national forest lookout at the summit, an early example of women employed in wildfire detection. The current two-story, 14\'x14\' steel and concrete structure was built in 1963–64, with the staircase engineered by Richard Eacobacci using WWII-era vehicles to haul materials up Butcher Ranch Road.',
         'The lookout was decommissioned in 1995. Ken Ingle was the last official fire lookout to staff the tower, which was shut down due to reduced Forest Service funding and the difficulty of delivering fuel to the isolated summit. The tower remains open to hikers as a historic destination. No staffing, no permit required.',
       ],
       placeId: 'sierra-buttes-lookout',
@@ -402,7 +402,7 @@ export const tahoe: VibeGuide = {
     { id: 'south-yuba', name: 'South Yuba River', lat: 39.2960, lng: -120.9850, description: 'Wild and scenic river with swimming holes at Shangri-La, Bridgeport, and Edwards Crossing.' },
     { id: 'sierra-buttes-lookout', name: 'Sierra Buttes Lookout', lat: 39.6080, lng: -120.6291, description: 'Historic fire lookout at 8,591 ft. Decommissioned 1995. Drive up, short hike, 180 stairs to catwalk.' },
     { id: 'malakoff-diggins', name: 'Malakoff Diggins State Historic Park', lat: 39.3960, lng: -120.9017, description: 'World\'s largest hydraulic gold mine site near North Bloomfield.' },
-    { id: 'sardine-lakes', name: 'Sardine Lakes', lat: 39.6197, lng: -120.6305, description: 'Upper and Lower Sardine Lakes below Sierra Buttes. Cold due to snowmelt — scenic but not warm swimming.' },
+    { id: 'sardine-lakes', name: 'Sardine Lakes', lat: 39.6197, lng: -120.6305, description: 'Upper and Lower Sardine Lakes below Sierra Buttes. Cold due to snowmelt feed. Scenic but not warm swimming.' },
     { id: 'boca-reservoir', name: 'Boca Reservoir', lat: 39.3932, lng: -120.0946, description: 'CDFW-stocked reservoir near Truckee with rainbow trout, brown trout, and kokanee salmon.' },
     { id: 'foresthill-divide', name: 'Foresthill Divide', lat: 39.0147, lng: -120.8166, description: 'Southwest forest zone accessed via Foresthill Divide Road. OHV network, Sugar Pine Reservoir, Mosquito Ridge Road.' },
     { id: 'loch-leven', name: 'Loch Leven Lakes Trailhead', lat: 39.3055, lng: -120.6033, description: 'Trailhead off I-80 at Big Bend. 6 mi RT, 1,000 ft gain. Waterfalls, granite slabs, three alpine lakes.' },
