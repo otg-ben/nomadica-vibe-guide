@@ -318,6 +318,7 @@ export const mendocino: VibeGuide = {
   historyCards: [
     {
       title: 'Bloody Rock',
+      photo: 'https://live.staticflickr.com/5324/17462838658_fc4c9ca151_b.jpg',
       body: [
         "A basaltic promontory above the upper Eel River canyon, with sheer drops of 150 feet or more on three sides. In the fall of 1859, somewhere between 30 and 65 Yuki, members of the Onkolukomno'm band who had fled the Round Valley Reservation, were cornered here by a group of armed settlers. The precise events are disputed. Every account came from the perpetrators. One version says those trapped chose to jump. Historians now believe they were more likely forced down and executed elsewhere.",
         "The site is accessible via a 4.8-mile out-and-back hike. Worth making time for.",
@@ -326,6 +327,7 @@ export const mendocino: VibeGuide = {
     },
     {
       title: 'The Yuki People',
+      photo: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/View_of_Round_Valley_ReservationMan_riding_a_horsedrawn_carriage_in_the_foreground_also_slide.jpg',
       body: [
         "The Yuki people lived in and around Round Valley and the upper Eel River headwaters for at least 10,000 years before contact. Their population was somewhere between 6,000 and 20,000 in 1854. By 1864 it was roughly 300.",
         "The Round Valley Settler Massacres of 1856 to 1859 were organized and partially funded by the California government. The state legislature appropriated money to pay a mercenary expedition that killed more than 280 people in six months alone. The Round Valley Indian Tribes, headquartered in Covelo at the forest's edge, carries the living legacy. The Nome Cult Trail, which passes through the forest above 6,000 feet, was the forced march route used in 1863 to relocate 461 Concow Maidu to Round Valley. Only 277 arrived.",
