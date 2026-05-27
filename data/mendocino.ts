@@ -297,8 +297,8 @@ export const mendocino: VibeGuide = {
       icon: '🌌',
       name: 'Dark Skies & Stargazing',
       badge: 'Bortle Class 2',
-      description: "Mendocino National Forest sits in a Bortle Class 2 zone, the second darkest classification on the scale, shared by only a handful of California sites. At Class 2, the Milky Way casts visible shadows and naked-eye limiting magnitude clears 7.1. Anthony Peak at 6,958 feet sits above the valley haze with a 360-degree horizon, well clear of every major light dome in the region. The M1 corridor north of Hull Mountain runs ridge-top above 4,000 feet with ridgelines blocking both the Sacramento Valley and Clear Lake glow to the east. Hammerhorn Lake campground on M1 is a solid base — dark skies, open meadow, no services. Summer and fall deliver the clearest nights. Spring is hit or miss.",
-      placeIds: ['anthony-peak', 'ridge-camp', 'm1-ridge'],
+      description: "Mendocino National Forest sits in a Bortle Class 2 zone, the second darkest classification on the scale, shared by only a handful of California sites. At Class 2, the Milky Way casts visible shadows and naked-eye limiting magnitude clears 7.1. Hull Mountain and the M1 corridor north toward the Black Butte River are the standout spots — ridge-top above 4,000 feet, long views, nothing blocking the sky. Anthony Peak at 6,958 feet adds elevation and a full 360-degree horizon above the valley haze. Skunk Rock is a favorite dispersed camp for dark sky nights in the northern forest. Summer and fall deliver the clearest nights. Spring is hit or miss.",
+      placeIds: ['hull-mountain', 'anthony-peak', 'skunk-rock', 'm1-ridge'],
     },
     {
       icon: '🎣',
