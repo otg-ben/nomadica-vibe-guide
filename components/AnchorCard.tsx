@@ -6,10 +6,10 @@ type AnchorSeasonRating = 'Prime' | 'Good' | 'Variable' | 'Limited' | 'Not recom
 
 const seasonBg: Record<AnchorSeasonRating, string> = {
   Prime:             'bg-emerald-700 text-white',
-  Good:              'bg-green-400 text-white',
-  Variable:          'bg-slate-400 text-white',
-  Limited:           'bg-gray-200 text-gray-500',
-  'Not recommended': 'bg-red-200 text-red-700',
+  Good:              'bg-green-100 text-green-700',
+  Variable:          'bg-slate-200 text-slate-600',
+  Limited:           'bg-gray-100 text-gray-400',
+  'Not recommended': 'bg-red-100 text-red-500',
 }
 
 export default function AnchorCard({ anchor, placeName }: { anchor: AnchorExperience; placeName: string }) {
@@ -39,6 +39,19 @@ export default function AnchorCard({ anchor, placeName }: { anchor: AnchorExperi
                 ))}
               </div>
             )}
+            <div className="flex gap-1.5 mt-2">
+              {seasons.map((s, i) => {
+                const rating = anchor.seasons[seasonKeys[i]]
+                return (
+                  <span
+                    key={s}
+                    className={`text-xs px-2 py-0.5 rounded-full font-medium ${seasonBg[rating] ?? 'bg-gray-100 text-gray-600'}`}
+                  >
+                    {s}
+                  </span>
+                )
+              })}
+            </div>
           </div>
         </div>
 
@@ -53,20 +66,7 @@ export default function AnchorCard({ anchor, placeName }: { anchor: AnchorExperi
           <p className="text-gray-700">{anchor.alert.text}</p>
         </div>
 
-        <div className="flex items-center justify-between">
-          <div className="flex gap-1.5">
-            {seasons.map((s, i) => {
-              const rating = anchor.seasons[seasonKeys[i]]
-              return (
-                <span
-                  key={s}
-                  className={`text-xs px-2 py-0.5 rounded-full font-medium ${seasonBg[rating] ?? 'bg-gray-100 text-gray-600'}`}
-                >
-                  {s}
-                </span>
-              )
-            })}
-          </div>
+        <div className="flex justify-end">
           <PlacePin placeId={anchor.placeId} label="View on map" />
         </div>
       </div>
