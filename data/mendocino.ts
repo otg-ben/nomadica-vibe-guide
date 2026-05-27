@@ -331,15 +331,6 @@ export const mendocino: VibeGuide = {
         "The Round Valley Settler Massacres of 1856 to 1859 were organized and partially funded by the California government. The state legislature appropriated money to pay a mercenary expedition that killed more than 280 people in six months alone. The Round Valley Indian Tribes, headquartered in Covelo at the forest's edge, carries the living legacy. The Nome Cult Trail, which passes through the forest above 6,000 feet, was the forced march route used in 1863 to relocate 461 Concow Maidu to Round Valley. Only 277 arrived.",
       ],
     },
-    {
-      title: 'Anthony Peak Lookout',
-      photo: '/images/anthony-peak-lookout.jpg',
-      body: [
-        "Built in 1934 by the California Conservation Corps: a 14-by-14-foot live-in cab on a ten-foot wood tower with a catwalk on all four sides. Enclosed in 1941 and staffed year-round as an enemy aircraft observation post during WWII, then ran continuously until structural deterioration led to its condemnation in 1990.",
-        "Volunteers and the Forest Service restored it in 1993. It's been active since and is now the last staffed fire lookout in Mendocino National Forest. The summit also hosts the Anthony Peak lupine, a rare wildflower found nowhere else on earth.",
-      ],
-      placeId: 'anthony-peak',
-    },
   ],
   watchBeforeYouGo: [
     { title: 'Mendocino Backcountry Discovery Trail', source: 'Overland Trail Guides', youtubeId: 'r0kc7EEW8kU' },
