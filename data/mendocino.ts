@@ -69,6 +69,13 @@ export interface CampSpot {
   placeId: string
 }
 
+export interface HistoryCard {
+  title: string
+  photo?: string
+  body: string[]
+  placeId?: string
+}
+
 export interface VibeGuide {
   title: string
   badge: string
@@ -94,8 +101,7 @@ export interface VibeGuide {
   }
   anchorExperiences: AnchorExperience[]
   recOpportunities: RecOpportunity[]
-  history: string[]
-  historyPlaceIds: string[]
+  historyCards: HistoryCard[]
   watchBeforeYouGo: { title: string; source: string; youtubeId?: string }[]
   places: Place[]
 }
@@ -309,13 +315,32 @@ export const mendocino: VibeGuide = {
       placeIds: ['bloody-rock'],
     },
   ],
-  history: [
-    "Bloody Rock is a basaltic promontory inside the forest above the upper Eel River canyon, with sheer drops of 150 feet or more on three sides. In the fall of 1859, somewhere between 30 and 65 Yuki, members of the Onkolukomno'm band who had fled the Round Valley Reservation, were cornered here by a group of armed settlers. The precise events are disputed. Every account came from the perpetrators. One version says those trapped chose to jump. Historians now believe they were more likely forced down and executed elsewhere. The site is accessible via a 4.8-mile hike and worth making time for.",
-    "The Yuki people had lived in and around Round Valley and the upper Eel River headwaters for at least 10,000 years before contact. Their population was somewhere between 6,000 and 20,000 in 1854. By 1864 it was roughly 300. The Round Valley Settler Massacres of 1856 to 1859 were organized and partially funded by the California government. The state legislature appropriated money to pay a mercenary expedition that killed more than 280 people in six months alone. The Round Valley Indian Tribes, headquartered in Covelo at the forest's edge, carries the living legacy. Eel River Station, within the national forest, sits on what was a major Yuki village site. The Nome Cult Trail, which passes through the forest above 6,000 feet, was the forced march route used in 1863 to relocate 461 Concow Maidu to Round Valley. Only 277 arrived.",
-    "Anthony Peak's fire lookout was built in 1934 by the California Conservation Corps, a 14-by-14-foot live-in cab on a ten-foot wood tower with a catwalk on all four sides. It was enclosed in 1941 and staffed year-round as an enemy aircraft observation post during WWII, then ran continuously until structural deterioration led to its condemnation in 1990. Volunteers and the Forest Service restored it in 1993; rededicated the following year and now the last active staffed fire lookout in Mendocino National Forest. The summit also hosts the Anthony Peak lupine, a rare wildflower found nowhere else on earth.",
-    "The forest was established in 1907 by Theodore Roosevelt, originally as the Stony Creek Reserve. It was renamed twice before settling on Mendocino. Herbert Hoover signed the final name change by executive order in 1932 to avoid confusion with the state of California itself.",
+  historyCards: [
+    {
+      title: 'Bloody Rock',
+      body: [
+        "A basaltic promontory above the upper Eel River canyon, with sheer drops of 150 feet or more on three sides. In the fall of 1859, somewhere between 30 and 65 Yuki, members of the Onkolukomno'm band who had fled the Round Valley Reservation, were cornered here by a group of armed settlers. The precise events are disputed. Every account came from the perpetrators. One version says those trapped chose to jump. Historians now believe they were more likely forced down and executed elsewhere.",
+        "The site is accessible via a 4.8-mile out-and-back hike. Worth making time for.",
+      ],
+      placeId: 'bloody-rock',
+    },
+    {
+      title: 'The Yuki People',
+      body: [
+        "The Yuki people lived in and around Round Valley and the upper Eel River headwaters for at least 10,000 years before contact. Their population was somewhere between 6,000 and 20,000 in 1854. By 1864 it was roughly 300.",
+        "The Round Valley Settler Massacres of 1856 to 1859 were organized and partially funded by the California government. The state legislature appropriated money to pay a mercenary expedition that killed more than 280 people in six months alone. The Round Valley Indian Tribes, headquartered in Covelo at the forest's edge, carries the living legacy. The Nome Cult Trail, which passes through the forest above 6,000 feet, was the forced march route used in 1863 to relocate 461 Concow Maidu to Round Valley. Only 277 arrived.",
+      ],
+    },
+    {
+      title: 'Anthony Peak Lookout',
+      photo: '/images/anthony-peak-lookout.jpg',
+      body: [
+        "Built in 1934 by the California Conservation Corps: a 14-by-14-foot live-in cab on a ten-foot wood tower with a catwalk on all four sides. Enclosed in 1941 and staffed year-round as an enemy aircraft observation post during WWII, then ran continuously until structural deterioration led to its condemnation in 1990.",
+        "Volunteers and the Forest Service restored it in 1993. It's been active since and is now the last staffed fire lookout in Mendocino National Forest. The summit also hosts the Anthony Peak lupine, a rare wildflower found nowhere else on earth.",
+      ],
+      placeId: 'anthony-peak',
+    },
   ],
-  historyPlaceIds: ['bloody-rock', 'anthony-peak'],
   watchBeforeYouGo: [
     { title: 'Mendocino Backcountry Discovery Trail', source: 'Overland Trail Guides', youtubeId: 'r0kc7EEW8kU' },
     { title: 'Mendocino National Forest', source: 'Community pick', youtubeId: 'u19uyFuUK28' },

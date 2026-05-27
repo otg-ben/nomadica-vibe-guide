@@ -288,14 +288,31 @@ export default function VibePage() {
 
         <Section title="History & Culture">
           <div className="space-y-4">
-            {g.history.map((p, i) => (
-              <p key={i} className="text-gray-600 text-[15px] leading-relaxed">{p}</p>
+            {g.historyCards.map(card => (
+              <div key={card.title} className="bg-white rounded-2xl overflow-hidden shadow-sm">
+                {card.photo ? (
+                  <div className="relative h-48 overflow-hidden">
+                    <img src={card.photo} alt={card.title} className="w-full h-full object-cover" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                    <h3 className="absolute bottom-0 left-0 right-0 px-5 pb-4 text-white font-black text-lg leading-tight">{card.title}</h3>
+                  </div>
+                ) : (
+                  <div className="bg-stone-800 px-5 py-4">
+                    <h3 className="text-white font-black text-lg">{card.title}</h3>
+                  </div>
+                )}
+                <div className="p-5 space-y-3">
+                  {card.body.map((p, i) => (
+                    <p key={i} className="text-sm text-gray-600 leading-relaxed">{p}</p>
+                  ))}
+                  {card.placeId && (
+                    <div className="flex justify-end pt-1">
+                      <PlacePin placeId={card.placeId} label={placeMap[card.placeId] ?? card.placeId} />
+                    </div>
+                  )}
+                </div>
+              </div>
             ))}
-            <div className="flex flex-wrap gap-2 pt-2">
-              {g.historyPlaceIds.map(id => (
-                <PlacePin key={id} placeId={id} label={placeMap[id] ?? id} />
-              ))}
-            </div>
           </div>
         </Section>
 
