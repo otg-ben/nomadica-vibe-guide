@@ -40,7 +40,7 @@ export const tahoe: VibeGuide = {
   overview: [
     'Tahoe National Forest runs along the crest of the northern Sierra Nevada from the North Fork of the American River to the Yuba River watershed. It covers roughly 932,000 acres and sees more visitors than any other California national forest. That popularity is earned: the combination of granite peaks, high-elevation lakes, swift rivers, and gold rush ghost towns is hard to match.',
     'The terrain is classic Sierra granite: steep canyon walls carved by glaciers, talus slopes, meadows fed by snowmelt, and ridgelines that top out near 9,000 feet. The forest splits into two distinct zones. The western slopes, accessed from Hwy 49 towns like Grass Valley and Nevada City, are lower, denser, and greener. The eastern interior, above 6,500 feet, opens into exposed granite and the kind of lake-dotted high country that draws hikers and 4x4 drivers from all over the state.',
-    'About half the forest road network is unpaved. Stock 4x4 trucks handle the majority of it without issue, but the most interesting routes — Fordyce Jeep Trail, the Bowman Lake Road corridor, and the upper Jackson Meadows area — reward vehicles with good clearance and lockers. AWD crossovers and vans can access the developed campground hubs and most paved forest routes, but dispersed camping in the backcountry is largely a 4x4 proposition.',
+    'About half the forest road network is unpaved. Stock 4x4 trucks handle the majority of it without issue, and the Bowman Lake Road corridor, upper Jackson Meadows area, and Henness Pass route reward vehicles with good clearance and time to explore. AWD crossovers and vans can access the developed campground hubs and most paved forest routes, but dispersed camping in the backcountry is largely a 4x4 proposition.',
     'The main entry hubs are Truckee (south, via I-80), Nevada City and Grass Valley (west, via Hwy 49), and Sierraville (north). Fuel is available in all three towns. French Meadows Reservoir and the Jackson Meadows area are the two most popular 4x4 staging zones. Get there before 10am on summer weekends to find dispersed sites along the reservoir.',
   ],
 
@@ -48,10 +48,6 @@ export const tahoe: VibeGuide = {
     {
       type: 'warning',
       text: 'Most forest roads above 6,500 ft close by November and do not open until late June or early July. Check fs.usda.gov/tahoe for current road status before heading in.',
-    },
-    {
-      type: 'warning',
-      text: 'Fordyce Jeep Trail requires a modified 4x4 with lockers. It is not a trail for stock trucks or first-time wheelers. Multiple recovery incidents happen each season.',
     },
     {
       type: 'warning',
@@ -92,12 +88,12 @@ export const tahoe: VibeGuide = {
       placeId: 'french-meadows',
       photo: 'https://upload.wikimedia.org/wikipedia/commons/7/74/French_Meadows_and_Hell_Hole_Reservoirs.jpg',
       description:
-        'A 2,000-acre reservoir sitting at 5,218 feet in the Middle Fork American River drainage, southwest of Tahoe City. The reservoir is the primary 4x4 staging zone for the southwestern forest. Forest Road 96 runs the ridge above it and connects to trails toward Rubicon Springs. Dispersed sites along the reservoir fill fast on summer weekends — arrive Friday afternoon or Tuesday through Thursday. The Rubicon Trail runs along the southern perimeter and links down to El Dorado National Forest.',
+        'A 2,000-acre reservoir sitting at 5,218 feet in the Middle Fork American River drainage, about 35 miles northeast of Auburn. The reservoir is the primary 4x4 staging zone for the southwestern forest. Forest Road 96 runs the ridge above it and connects to the Middle Fork American River canyon. Dispersed sites along the reservoir fill fast on summer weekends — arrive Friday afternoon or Tuesday through Thursday.',
     },
     {
       name: 'Bowman Lake Road Corridor',
       placeId: 'bowman-lake',
-      photo: 'https://upload.wikimedia.org/wikipedia/commons/9/92/Rubicon_River_flowing_through_cataract_to_Hell_Hole_Reservoir.jpg',
+      photo: '',
       description:
         'Bowman Lake Road leaves Hwy 20 north of Nevada City and climbs into a basin ringed with small high-country lakes: Bowman, Faucherie, Sawmill, Carr, Feeley, and others. The road is rough and requires a truck with decent clearance. Beyond the lakes, Grouse Ridge Road runs the ridge with views toward the Buttes and connects to the South Yuba River canyon below. This corridor is less crowded than the Jackson Meadows area because the approach road keeps out vehicles that are not up to it.',
     },
@@ -112,7 +108,7 @@ export const tahoe: VibeGuide = {
 
   roadNetwork: {
     prose:
-      'The forest has roughly 800 miles of road, about half unpaved. The main paved corridors — Hwy 49 along the west edge, I-80 through the south, and Hwy 89 to the east — serve as staging routes. From there, a dense web of forest roads branches into the interior. Most of the interesting overland country sits above 5,000 feet and requires some clearance. Stock 4x4 trucks can reach French Meadows, the Jackson Meadows lake basin, and the Bowman Lake Road corridor without modification. The Fordyce Jeep Trail and the upper Rubicon are a different category: technical rock, water crossings, and genuine recovery risk. Avoid both without a modified rig and a second vehicle. Fuel gaps are real once you leave the highway towns.',
+      'The forest has roughly 800 miles of road, about half unpaved. The main paved corridors — Hwy 49 along the west edge, I-80 through the south, and Hwy 89 to the east — serve as staging routes. From there, a dense web of forest roads branches into the interior. Most of the interesting overland country sits above 5,000 feet and requires some clearance. Stock 4x4 trucks can reach French Meadows, the Jackson Meadows lake basin, and the Bowman Lake Road corridor without modification. Fuel gaps are real once you leave the highway towns.',
     vehicleRatings: [
       { type: 'AWD / Crossover', rating: 'Fair' },
       { type: 'Sprinter / Van', rating: 'Fair' },
@@ -128,7 +124,7 @@ export const tahoe: VibeGuide = {
       {
         name: 'FR 96 / Middle Fork',
         description:
-          'The main access road into the French Meadows area. Paved to the reservoir, then dirt beyond toward Rubicon Springs. Stock 4x4 can reach French Meadows; the Rubicon connector requires more.',
+          'The main access road into the French Meadows area. Paved to the reservoir, then dirt beyond into the Middle Fork American River canyon. Stock 4x4 can reach the reservoir and most camping areas without modification.',
       },
       {
         name: 'Bowman Lake Rd',
@@ -139,11 +135,6 @@ export const tahoe: VibeGuide = {
         name: 'Gold Lake Rd',
         description:
           'Paved road running through the Jackson Meadows lake chain. Access to Sierra Buttes, Sardine Lakes, Packer Lake, and Gold Lake. Dirt spurs off the main road vary from easy to moderate.',
-      },
-      {
-        name: 'Fordyce Creek Tr',
-        description:
-          'Technical jeep trail from the Hwy 20 / Hwy 80 junction area up to Fordyce Lake. Rock ledges, water crossings, high-center terrain. Modified 4x4 with lockers only. Do not attempt solo.',
       },
     ],
   },
@@ -169,7 +160,7 @@ export const tahoe: VibeGuide = {
     dispersedSpots: [
       {
         name: 'French Meadows Reservoir East',
-        description: 'Flat pull-outs along the east shore. Boat launch nearby. Good base for Rubicon access.',
+        description: 'Flat pull-outs along the east shore. Boat launch nearby. Good base for Middle Fork canyon roads.',
         placeId: 'camp-french-meadows-east',
       },
       {
@@ -305,8 +296,8 @@ export const tahoe: VibeGuide = {
       name: 'OHV & Jeep Trails',
       badge: 'Major network',
       description:
-        'Tahoe NF has one of the most developed OHV networks in the northern Sierra. The Fordyce Jeep Trail is the prestige run — technical, remote, modified-only. Below that level, the Bowman Basin, French Meadows, and Jackson Meadows corridors keep stock 4x4 trucks busy for multiple days. The forest connects to El Dorado NF to the south via the Rubicon Trail, making end-to-end traverses possible. Trail conditions vary: check with the Nevada City Ranger District before any technical route.',
-      placeIds: ['fordyce-trail', 'french-meadows', 'bowman-lake'],
+        'Tahoe NF has one of the densest OHV networks in the northern Sierra. The Bowman Basin, French Meadows, Poker Flat, and Jackson Meadows corridors keep stock 4x4 trucks busy for multiple days. Henness Pass Road gives AWD vehicles a real trans-Sierra route with almost no traffic. Trail conditions vary by season: check with the Nevada City or Downieville ranger districts before heading out.',
+      placeIds: ['french-meadows', 'bowman-lake', 'poker-flat-ohv', 'henness-pass'],
     },
     {
       icon: '🏊',
@@ -385,7 +376,6 @@ export const tahoe: VibeGuide = {
     { id: 'bowman-lake', name: 'Bowman Lake', lat: 39.4635, lng: -120.6272, description: 'High-country lake in the Bowman Basin, reached via Bowman Lake Road.' },
     { id: 'south-yuba', name: 'South Yuba River', lat: 39.2960, lng: -120.9850, description: 'Wild and scenic river with swimming holes at Bridgeport and Edwards Crossing.' },
     { id: 'sierra-buttes-lookout', name: 'Sierra Buttes Lookout', lat: 39.6080, lng: -120.6291, description: 'Historic fire lookout at 8,591 ft with catwalk open to visitors when staffed.' },
-    { id: 'fordyce-trail', name: 'Fordyce Jeep Trail', lat: 39.3491, lng: -120.5040, description: 'Technical OHV trail from Hwy 20 area to Fordyce Lake. Modified 4x4 required.' },
     { id: 'malakoff-diggins', name: 'Malakoff Diggins State Historic Park', lat: 39.3960, lng: -120.9017, description: 'World\'s largest hydraulic gold mine site near North Bloomfield.' },
     { id: 'gold-lake', name: 'Gold Lake', lat: 39.6477, lng: -120.6267, description: 'Stocked trout lake in the Gold Lake basin. Paved access from Gold Lake Road.' },
     { id: 'sardine-lakes', name: 'Sardine Lakes', lat: 39.6197, lng: -120.6305, description: 'Upper and Lower Sardine Lakes below Sierra Buttes. Popular swimming and photography spot.' },
