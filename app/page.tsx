@@ -171,6 +171,14 @@ export default function VibePage() {
           </div>
         </Section>
 
+        <Section title="Anchor Experiences">
+          <div className="space-y-4">
+            {g.anchorExperiences.map(anchor => (
+              <AnchorCard key={anchor.id} anchor={anchor} placeName={placeMap[anchor.placeId] ?? anchor.name} />
+            ))}
+          </div>
+        </Section>
+
         <Section title="Road Network & Major Routes">
           <div className="space-y-5">
             <div className="rounded-xl overflow-hidden h-36">
@@ -249,14 +257,6 @@ export default function VibePage() {
                 ))}
               </div>
             </div>
-          </div>
-        </Section>
-
-        <Section title="Anchor Experiences">
-          <div className="space-y-4">
-            {g.anchorExperiences.map(anchor => (
-              <AnchorCard key={anchor.id} anchor={anchor} placeName={placeMap[anchor.placeId] ?? anchor.name} />
-            ))}
           </div>
         </Section>
 
