@@ -6,7 +6,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Nomadica Vibe Guides',
+  title: 'Vibe Guide',
   description: "Overlander vibe guides for national forests and public lands",
 }
 
