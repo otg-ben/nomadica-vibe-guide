@@ -1,5 +1,5 @@
-export type SeasonRating = 'Best' | 'Good' | 'Fair' | 'Inaccessible' | 'Variable'
-export type VehicleRating = 'Best' | 'Good' | 'Fair' | 'Inaccessible' | 'Variable'
+export type SeasonRating = 'Best' | 'Good' | 'Fair' | 'Poor' | 'Variable'
+export type VehicleRating = 'Best' | 'Good' | 'Fair' | 'Poor' | 'Variable'
 export type AnchorSeasonRating = 'Prime' | 'Good' | 'Variable' | 'Limited' | 'Not recommended'
 export type CrowdLevel = number // 1–9
 export type AlertType = 'warning' | 'info' | 'good'

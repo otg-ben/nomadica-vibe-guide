@@ -74,7 +74,8 @@ export default function VibeGuidePage({
                   : v.rating === 'Good' ? 'bg-emerald-100 text-emerald-800'
                   : v.rating === 'Fair' ? 'bg-yellow-100 text-yellow-800'
                   : v.rating === 'Variable' ? 'bg-orange-100 text-orange-700'
-                  : 'bg-red-100 text-red-700'
+                  : v.rating === 'Poor' ? 'bg-red-100 text-red-700'
+                  : 'bg-gray-100 text-gray-500'
                 return (
                   <div key={v.type} className={`rounded-xl py-3 px-3 text-center ${tileClass}`}>
                     <p className="text-xs font-black leading-tight">{v.type}</p>
@@ -96,7 +97,8 @@ export default function VibeGuidePage({
                   : s.rating === 'Good' ? 'bg-emerald-100 text-emerald-800'
                   : s.rating === 'Fair' ? 'bg-yellow-100 text-yellow-800'
                   : s.rating === 'Variable' ? 'bg-orange-100 text-orange-700'
-                  : 'bg-red-100 text-red-700'
+                  : s.rating === 'Poor' ? 'bg-red-100 text-red-700'
+                  : 'bg-gray-100 text-gray-500'
                 return (
                   <div key={s.season} className={`rounded-xl py-3 px-1 text-center ${tileClass}`}>
                     <p className="text-[10px] font-bold tracking-wide opacity-60">{s.season}</p>

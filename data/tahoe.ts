@@ -9,7 +9,7 @@ export const tahoe: VibeGuide = {
   vehicleRatings: [
     { type: 'AWD / Crossover', rating: 'Fair' },
     { type: 'Sprinter / Van', rating: 'Fair' },
-    { type: 'Stock 4x4', rating: 'Best' },
+    { type: 'Stock 4x4', rating: 'Good' },
     { type: 'Modified 4x4', rating: 'Best' },
   ],
 
@@ -17,7 +17,7 @@ export const tahoe: VibeGuide = {
     { season: 'Spring', rating: 'Fair', description: 'Snow lingers on high routes through May. Low-elevation roads open first.' },
     { season: 'Summer', rating: 'Best', description: 'High passes open July. Lakes warm enough to swim. Busy on holiday weekends.' },
     { season: 'Fall', rating: 'Good', description: 'Crowds drop after Labor Day. Aspens turn gold. Best dispersed camping windows.' },
-    { season: 'Winter', rating: 'Inaccessible', description: 'Most forest roads close November through April. Chains required on Hwy 49 crossings.' },
+    { season: 'Winter', rating: 'Poor', description: 'Most forest roads close November through April. Chains required on Hwy 49 crossings.' },
   ],
 
   crowdLevel: 7,
@@ -112,7 +112,7 @@ export const tahoe: VibeGuide = {
     vehicleRatings: [
       { type: 'AWD / Crossover', rating: 'Fair' },
       { type: 'Sprinter / Van', rating: 'Fair' },
-      { type: 'Stock 4x4', rating: 'Best' },
+      { type: 'Stock 4x4', rating: 'Good' },
       { type: 'Modified 4x4', rating: 'Best' },
     ],
     routes: [
