@@ -318,7 +318,7 @@ export const mendocino: VibeGuide = {
   historyCards: [
     {
       title: 'Bloody Rock',
-      photo: 'https://live.staticflickr.com/5324/17462838658_fc4c9ca151_b.jpg',
+      photo: '/images/bloody-rock.png',
       body: [
         "A basaltic promontory above the upper Eel River canyon, with sheer drops of 150 feet or more on three sides. In the fall of 1859, somewhere between 30 and 65 Yuki, members of the Onkolukomno'm band who had fled the Round Valley Reservation, were cornered here by a group of armed settlers. The precise events are disputed. Every account came from the perpetrators. One version says those trapped chose to jump. Historians now believe they were more likely forced down and executed elsewhere.",
         "The site is accessible via a 4.8-mile out-and-back hike. Worth making time for.",
