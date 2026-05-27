@@ -225,7 +225,7 @@ export const mendocino: VibeGuide = {
     developedCampgrounds: [
       { name: 'Oak Flat Campground', description: 'Best in the shoulder seasons. Elk graze throughout Gravelly Valley, especially mid-week when the crowds are gone. Fee required.', placeId: 'oak-flat' },
       { name: 'Board Tree Campground', description: 'A free campground with expansive views of the mountains to the south and west. Quieter than the lake campgrounds and a good base for the surrounding road network.', placeId: 'board-tree' },
-      { name: 'Bear Creek Campground', description: 'Wide, open equestrian camp under a canopy of mature valley oaks. Bear Creek runs close enough to sit in on a hot afternoon and stays cold through the summer months. Pit toilet on site. Access requires crossing the Rice Fork: easy in summer when it\'s running around 12 inches, but deep and fast during winter and early spring snowmelt. Do not push through in high water.', placeId: 'bear-creek-cg' },
+      { name: 'Bear Creek Campground', description: 'More dispersed camp than traditional developed campground. Sites spread out through good tree cover with solid shade throughout. Down by the equestrian area the spots open up into wide, flat clearings that work well for larger groups or rigs with trailers. Equestrians rarely camp there. Bear Creek runs alongside and stays cold enough to cool off in through the summer months. Pit toilet on site. Access requires crossing the Rice Fork: easy in summer when it\'s running around 12 inches, but deep and fast during winter and early spring snowmelt. Do not push through in high water.', placeId: 'bear-creek-cg' },
     ],
   },
   anchorExperiences: [
