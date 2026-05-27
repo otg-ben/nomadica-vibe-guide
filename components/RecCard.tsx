@@ -3,12 +3,14 @@ import type { RecOpportunity } from '@/data/mendocino'
 import { mendocino } from '@/data/mendocino'
 
 const badgeColors: Record<string, string> = {
-  'Major network':           'bg-emerald-100 text-emerald-800',
-  'Summer highlight':        'bg-sky-100 text-sky-800',
-  'Fall highlight':          'bg-amber-100 text-amber-800',
-  'Limited opportunities':   'bg-gray-100 text-gray-600',
-  'Not a hiking destination':'bg-gray-100 text-gray-600',
-  '4 / 5 rating':            'bg-indigo-100 text-indigo-800',
+  'Major network':            'bg-emerald-100 text-emerald-800',
+  'Summer highlight':         'bg-sky-100 text-sky-800',
+  'Fall highlight':           'bg-amber-100 text-amber-800',
+  'Limited opportunities':    'bg-gray-100 text-gray-600',
+  'Not a hiking destination': 'bg-gray-100 text-gray-600',
+  '4 / 5 rating':             'bg-indigo-100 text-indigo-800',
+  'Bortle Class 2':           'bg-indigo-100 text-indigo-800',
+  'Fair by CA standards':     'bg-yellow-100 text-yellow-800',
 }
 
 export default function RecCard({ rec }: { rec: RecOpportunity }) {
