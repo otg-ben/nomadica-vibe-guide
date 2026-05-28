@@ -4,8 +4,9 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 const forests = [
-  { name: 'Mendocino NF', href: '/',       region: 'Northern CA' },
-  { name: 'Tahoe NF',     href: '/tahoe',  region: 'Northern CA' },
+  { name: 'Mendocino NF',   href: '/',               region: 'Northern CA' },
+  { name: 'Tahoe NF',       href: '/tahoe',          region: 'Northern CA' },
+  { name: 'Eastern Sierra', href: '/eastern-sierra', region: 'Eastern CA'  },
 ]
 
 export default function ForestNav() {
